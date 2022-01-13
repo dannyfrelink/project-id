@@ -69,9 +69,10 @@ header p {
     width: 2.5vw;
 }
 
-.nextPage>img {
+.nextPage .avocado {
     transform: rotate(45deg);
     width: 12vw;
+    z-index: 1;
 }
 
 /* Hype pagina */
