@@ -73,3 +73,10 @@ header p {
     transform: rotate(45deg);
     width: 12vw;
 }
+
+/* Hype pagina */
+
+.hype {
+    position: absolute;
+    top: 100vh;
+}
