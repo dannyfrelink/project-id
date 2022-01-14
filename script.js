@@ -1,41 +1,46 @@
-gsap.to('.avocado', {
+const tl = gsap.timeline({
 	scrollTrigger: {
-		trigger: '.avocado',
-		scrub: 0.5,
-		start: 'top 60%',
-		end: 'center top',
-	},
-	y: '25vw',
-	rotation: 360,
-	duration: 13,
-})
+		trigger: '.nextPage',
+		start: 'top 70%',
+		end: 'top 20%',
+		markers: true,
+		scrub: 0.75
+	}
+});
 
-gsap.to('#Hashtag_1', {
+tl
+	.to('.avocado', {
+		y: '25vw',
+		rotation: 360,
+		duration: 13
+	})
+	// .call(() => console.log("call!")) // <-- here's the call
+	.to('.avocado', {
+		y: '75vw',
+		duration: 13
+	});
+
+// gsap.to('.avocado', {
+// 	scrollTrigger: {
+// 		trigger: '.avocado',
+// 		scrub: 0.75,
+// 		start: 'top 70%',
+// 		end: 'top 20%',
+// 		markers: true
+// 	},
+// 	y: '25vw',
+// 	rotation: 360,
+// })
+
+gsap.from('#Hashtag_1', {
 	scrollTrigger: {
 		trigger: '#Hashtag_1',
 		scrub: 1,
 		end: 'top 70%',
 	},
-	x: '0',
-})
-
-gsap.to('#Hashtag_2', {
-	scrollTrigger: {
-		trigger: '#Hashtag_2',
-		scrub: 1,
-		end: 'top 70%',
-	},
-	x: '0',
-})
-
-gsap.to('#Hashtag_3', {
-	scrollTrigger: {
-		trigger: '#Hashtag_3',
-		scrub: 1,
-		end: 'top 70%',
-	},
-
-	x: '0',
+	x: 400,
+	duration: 1,
+	stagger: 0.5
 })
 
 gsap.to('#De_avocado_tekst', {
