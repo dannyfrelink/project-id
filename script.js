@@ -1,36 +1,36 @@
-const tl = gsap.timeline({
-	scrollTrigger: {
-		trigger: '.nextPage',
-		start: 'top 70%',
-		end: 'top 20%',
-		markers: true,
-		scrub: 0.75
-	}
-});
+const tl = gsap.timeline();
 
 tl
-	.to('.avocado', {
-		y: '25vw',
-		rotation: 360,
-		duration: 13
-	})
-	// .call(() => console.log("call!")) // <-- here's the call
-	.to('.avocado', {
-		y: '75vw',
-		duration: 13
-	});
-
-// gsap.to('.avocado', {
-// 	scrollTrigger: {
-// 		trigger: '.avocado',
-// 		scrub: 0.75,
-// 		start: 'top 70%',
-// 		end: 'top 20%',
-// 		markers: true
-// 	},
-// 	y: '25vw',
-// 	rotation: 360,
-// })
+	.fromTo('.avocado', {
+		y: '25vw'
+	},
+		{
+			scrollTrigger: {
+				trigger: '.avocado',
+				start: '200% 39%',
+				end: '200% top',
+				markers: true,
+				scrub: 0.75
+			},
+			rotation: 360,
+			x: '-2vw',
+			y: '85vw',
+			transform: 'scale(1.4)',
+			duration: 13
+		})
+	.fromTo('.avocado', { y: 0 },
+		{
+			scrollTrigger: {
+				trigger: '.avocado',
+				start: 'top 70%',
+				end: 'top 40%',
+				markers: true,
+				scrub: 0.75
+			},
+			y: '25vw',
+			rotation: 360,
+			duration: 13
+		})
 
 gsap.from('#Hashtag_1', {
 	scrollTrigger: {
