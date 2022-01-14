@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+html {
+    background-color: #e7e7aa;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	color: #03392b;
@@ -7,30 +11,27 @@ body {
 }
 
 /* Header pagina */
-.achtergrond {
-	position: absolute;
-	background-color: #e7e7aa;
-	width: 100vw;
-	height: 100vh;
-}
 
 header {
 	display: flex;
 	flex-direction: column;
 	width: fit-content;
-	margin: 10vw auto 0;
+    margin: 10vw auto 0;
+    height: calc(100vh - 10vw);
 }
 
 header img {
 	position: absolute;
 	left: calc(50% - 5vw);
 	width: 12vw;
+    /* transform: translateX(120vw); */
 }
 
 header h1 {
 	font-size: 10vw;
 	margin: 1.8vw auto 0;
 	z-index: 1;
+    /* transform: translateX(-150vw); */
 }
 
 header p {
@@ -77,9 +78,8 @@ header p {
 
 /* Hype pagina */
 
-.hype {
-	position: absolute;
-	top: 100vh;
+.svg {
+    font-size: 0;
 }
 
 #Hashtag_1 {
@@ -98,10 +98,4 @@ header p {
 	width: 50px;
 }
 
-.avocadoFoto {
-	transform: translateX(120vw);
-}
 
-.titel {
-	transform: translateX(-150vw);
-}

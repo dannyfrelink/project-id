@@ -1,7 +1,7 @@
 gsap.to('.avocado', {
 	scrollTrigger: {
 		trigger: '.avocado',
-		scrub: true,
+		scrub: 0.5,
 		start: 'top 60%',
 		end: 'center top',
 	},
@@ -13,7 +13,7 @@ gsap.to('.avocado', {
 gsap.to('#Hashtag_1', {
 	scrollTrigger: {
 		trigger: '#Hashtag_1',
-		scrub: true,
+		scrub: 1,
 		end: 'top 70%',
 	},
 	x: '0',
@@ -22,7 +22,7 @@ gsap.to('#Hashtag_1', {
 gsap.to('#Hashtag_2', {
 	scrollTrigger: {
 		trigger: '#Hashtag_2',
-		scrub: true,
+		scrub: 1,
 		end: 'top 70%',
 	},
 	x: '0',
@@ -31,7 +31,7 @@ gsap.to('#Hashtag_2', {
 gsap.to('#Hashtag_3', {
 	scrollTrigger: {
 		trigger: '#Hashtag_3',
-		scrub: true,
+		scrub: 1,
 		end: 'top 70%',
 	},
 
@@ -47,19 +47,19 @@ gsap.to('#De_avocado_tekst', {
 	// ease: Expo.easeOut,
 })
 
-gsap.to('.avocadoFoto', {
-	scrollTrigger: {
-		trigger: '.avocadoFoto',
-		scrub: true,
-	},
-	x: '0',
-	rotate: 720,
-})
+// gsap.to('.avocadoFoto', {
+// 	scrollTrigger: {
+// 		trigger: '.avocadoFoto',
+// 		scrub: true,
+// 	},
+// 	x: '0',
+// 	rotate: 720,
+// })
 
-gsap.to('.titel', {
-	scrollTrigger: {
-		trigger: '.titel',
-		scrub: true,
-	},
-	x: '0',
-})
+// gsap.to('.titel', {
+// 	scrollTrigger: {
+// 		trigger: '.titel',
+// 		scrub: true,
+// 	},
+// 	x: '0',
+// })

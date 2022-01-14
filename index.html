@@ -1,294 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
 
-		<title>Document</title>
-	</head>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
 
-	<body>
-		<class class="achtergrond">
-			<header>
-				<img
-					class="avocadoFoto"
-					src="images/profielfoto-avocado.png"
-					alt="Open gesneden avocado"
-				/>
-				<h1 class="titel">AVOCADO</h1>
-				<p>Een <strong>kleine</strong> groente met een <strong>groot</strong> verhaal</p>
-			</header>
-			<section class="nextPage">
-				<div>
-					<p>VOLG DE AVOCADO</p>
-					<img src="images/dubbele-pijl-omlaag.png" alt="Pijl omlaag" />
-				</div>
-				<img class="avocado" src="images/avocado.png" alt="Hele avocado" />
-			</section>
+    <title>Document</title>
+</head>
 
-			<svg
-				class="hype"
-				xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				viewBox="0 0 1920.305 1079.791"
-			>
-				<defs>
-					<style>
-						.cls-1,
-						.cls-15,
-						.cls-4,
-						.cls-5,
-						.cls-6,
-						.cls-7,
-						.cls-8 {
-							fill: #033a2b;
-						}
+<body>
+    <header>
+        <img class="avocadoFoto" src="images/profielfoto-avocado.png" alt="Open gesneden avocado" />
+        <h1 class="titel">AVOCADO</h1>
+        <p>Een <strong>kleine</strong> groente met een <strong>groot</strong> verhaal</p>
+    </header>
+    <section class="nextPage">
+        <div>
+            <p>VOLG DE AVOCADO</p>
+            <img src="images/dubbele-pijl-omlaag.png" alt="Pijl omlaag" />
+        </div>
+        <img class="avocado" src="images/avocado.png" alt="Hele avocado" />
+    </section>
 
-						.cls-2 {
-							font-size: 38.776px;
-						}
+    <div class="svg">
+        <svg class="hype" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 1920.305 1080">
+            <defs>
+                <style>
+                    .cls-1,
+                    .cls-10,
+                    .cls-11,
+                    .cls-12,
+                    .cls-3,
+                    .cls-4,
+                    .cls-5,
+                    .cls-6,
+                    .cls-7,
+                    .cls-8,
+                    .cls-9 {
+                        fill: #e7e7a9;
+                    }
 
-						.cls-2,
-						.cls-3 {
-							fill: #e7e7a9;
-						}
+                    .cls-13,
+                    .cls-14,
+                    .cls-2,
+                    .cls-21 {
+                        fill: #033a2b;
+                    }
 
-						.cls-2,
-						.cls-4,
-						.cls-5,
-						.cls-7 {
-							font-family: Poppins-Bold, Poppins;
-							font-weight: 700;
-						}
+                    .cls-3 {
+                        font-size: 38.776px;
+                    }
 
-						.cls-4 {
-							font-size: 32.751px;
-						}
+                    .cls-10,
+                    .cls-11,
+                    .cls-13,
+                    .cls-3,
+                    .cls-4,
+                    .cls-5,
+                    .cls-7,
+                    .cls-8 {
+                        font-family: Poppins-Bold, Poppins;
+                        font-weight: 700;
+                    }
 
-						.cls-5 {
-							font-size: 65.501px;
-						}
+                    .cls-4 {
+                        font-size: 32.751px;
+                    }
 
-						.cls-6,
-						.cls-7 {
-							font-size: 24.563px;
-						}
+                    .cls-5 {
+                        font-size: 65.501px;
+                    }
 
-						.cls-13,
-						.cls-15,
-						.cls-6 {
-							font-family: Poppins-Regular, Poppins;
-						}
+                    .cls-13,
+                    .cls-6 {
+                        font-size: 24.563px;
+                    }
 
-						.cls-8 {
-							opacity: 0.23;
-						}
+                    .cls-12,
+                    .cls-19,
+                    .cls-21,
+                    .cls-6,
+                    .cls-9 {
+                        font-family: Poppins-Regular, Poppins;
+                    }
 
-						.cls-9 {
-							fill: #fdfdfc;
-						}
+                    .cls-7 {
+                        font-size: 29.699px;
+                    }
 
-						.cls-10,
-						.cls-9 {
-							stroke: #033a2b;
-							stroke-miterlimit: 10;
-						}
+                    .cls-8 {
+                        font-size: 59.398px;
+                    }
 
-						.cls-10,
-						.cls-11 {
-							fill: #fff;
-						}
+                    .cls-9 {
+                        font-size: 22.274px;
+                    }
 
-						.cls-10 {
-							stroke-width: 2px;
-						}
+                    .cls-10 {
+                        font-size: 27.832px;
+                    }
 
-						.cls-12 {
-							fill: #e64019;
-							fill-rule: evenodd;
-						}
+                    .cls-11 {
+                        font-size: 55.663px;
+                    }
 
-						.cls-13,
-						.cls-14,
-						.cls-15 {
-							font-size: 20.469px;
-						}
+                    .cls-12 {
+                        font-size: 20.877px;
+                    }
 
-						.cls-13,
-						.cls-14 {
-							fill: #1d1d1b;
-						}
+                    .cls-14 {
+                        opacity: 0.23;
+                    }
 
-						.cls-14 {
-							font-family: Poppins-Medium, Poppins;
-							font-weight: 500;
-						}
+                    .cls-15 {
+                        fill: #fdfdfc;
+                    }
 
-						.cls-15 {
-							opacity: 0.4;
-						}
-					</style>
-				</defs>
-				<g id="Achtergrond">
-					<path
-						id="Golf"
-						class="cls-1"
-						d="M0,.209S612.877,55.1,860.118,580.174,1920.305,1079.8,1920.305,1079.8L0,1080Z"
-						transform="translate(0 -0.209)"
-					/>
-					<text
-						id="De_avocado_tekst"
-						data-name="De avocado tekst"
-						class="cls-2"
-						transform="translate(79.489 569.298)"
-					>
-						De avocado:
-						<tspan x="0" y="46.531">Je hebt hem vast wel</tspan>
-						<tspan x="0" y="93.063">eens voor bij zien komen...</tspan>
-					</text>
-				</g>
-				<g id="Hashtags">
-					<g id="Hashtag_1" data-name="Hashtag 1">
-						<rect
-							class="cls-3"
-							x="1369.272"
-							y="460.309"
-							width="422.055"
-							height="123.018"
-							rx="12"
-						/>
-						<text class="cls-4" transform="translate(1511.108 512.294)">#AVOCADO</text>
-						<text class="cls-5" transform="translate(1404.736 542.522)">#</text>
-						<text class="cls-6" transform="translate(1511.763 551.605)">
-							12,7 mln berichten
-						</text>
-					</g>
-					<g id="Hashtag_2" data-name="Hashtag 2">
-						<rect
-							class="cls-3"
-							x="1369.272"
-							y="611.812"
-							width="422.055"
-							height="123.018"
-							rx="12"
-						/>
-						<text class="cls-4" transform="translate(1511.108 663.797)">#TOMATO</text>
-						<text class="cls-5" transform="translate(1404.736 694.025)">#</text>
-						<text class="cls-6" transform="translate(1511.763 703.108)">
-							7,6 mln berichten
-						</text>
-					</g>
-					<g id="Hashtag_3" data-name="Hashtag 3">
-						<rect
-							class="cls-3"
-							x="1369.272"
-							y="763.314"
-							width="422.055"
-							height="123.018"
-							rx="12"
-						/>
-						<text class="cls-4" transform="translate(1511.108 815.302)">#SPINACH</text>
-						<text class="cls-5" transform="translate(1404.736 845.526)">#</text>
-						<text class="cls-6" transform="translate(1511.763 854.609)">
-							5,6 mln berichten
-						</text>
-					</g>
-					<text
-						id="De_populairste_tekst"
-						data-name="De populairste tekst"
-						class="cls-7"
-						transform="translate(1372.316 395.989)"
-					>
-						De populairste #groente op
-						<tspan x="0" y="29.476">Instagram</tspan>
-					</text>
-				</g>
-				<g id="Instagrampost" viewbox="0 0 10 10">
-					<g id="Instagrampost-2" data-name="Instagrampost">
-						<rect
-							class="cls-8"
-							x="691.602"
-							y="142.091"
-							width="536.491"
-							height="754.405"
-							rx="12"
-						/>
-						<rect
-							class="cls-9"
-							x="691.602"
-							y="142.091"
-							width="527.682"
-							height="746.333"
-							rx="12"
-						/>
-						<rect
-							class="cls-3"
-							x="721.17"
-							y="242.266"
-							width="468.817"
-							height="456.203"
-						/>
-						<circle class="cls-1" cx="1182.311" cy="181" r="5.218" />
-						<circle class="cls-1" cx="1182.311" cy="196.354" r="5.218" />
-						<circle class="cls-1" cx="1182.311" cy="212.335" r="5.218" />
-						<polygon
-							class="cls-1"
-							points="1153.739 719.03 1186.172 719.03 1186.172 762.345 1169.956 751.51 1153.739 762.345 1153.739 719.03"
-						/>
-						<circle class="cls-1" cx="796.048" cy="739.026" r="18.007" />
-						<polyline
-							class="cls-10"
-							points="801.233 751.245 819.032 757.033 808.498 742.573"
-						/>
-						<circle class="cls-11" cx="796.048" cy="739.026" r="16.191" />
-						<path
-							class="cls-12"
-							d="M744.9,760.469C733.65,749.4,722.921,739.9,722.921,731.7c0-7.574,6.13-10.371,10.551-10.371,2.621,0,8.293,1,11.426,8.9,3.177-7.927,8.919-8.885,11.44-8.885,5.075,0,10.537,3.239,10.537,10.352,0,8.129-10.261,17.232-21.977,28.774"
-							transform="translate(0 -0.209)"
-						/>
-						<text class="cls-13" transform="translate(722.922 796.394)">
-							10.9800 Likes
-						</text>
-						<text class="cls-14" transform="translate(721.17 826.415)">
-							Avocado_Lover
-						</text>
-						<text class="cls-13" transform="translate(889.463 826.415)">
-							Heerlijke avocado
-							<tspan class="cls-1" x="188.108" y="0">#avocado</tspan>
-						</text>
-						<text class="cls-15" transform="translate(721.17 856.721)">
-							4.000 reacties
-						</text>
-						<text
-							id="Profielnaam"
-							class="cls-14"
-							transform="translate(796.047 202.928)"
-						>
-							Avocado_Lover
-						</text>
-						<circle
-							id="Rondje_profielfoto"
-							data-name="Rondje profielfoto"
-							class="cls-1"
-							cx="753.362"
-							cy="193.539"
-							r="32.192"
-						/>
-						<image
-							width="342"
-							height="483"
-							transform="translate(741.361 172.044) scale(0.089)"
-							xlink:href="images/profielfoto-avocado.png"
-						/>
-					</g>
-				</g>
-			</svg>
-		</class>
+                    .cls-15,
+                    .cls-16 {
+                        stroke: #033a2b;
+                        stroke-miterlimit: 10;
+                    }
 
-		<script src="script.js"></script>
-	</body>
+                    .cls-16,
+                    .cls-17 {
+                        fill: #fff;
+                    }
+
+                    .cls-16 {
+                        stroke-width: 2px;
+                    }
+
+                    .cls-18 {
+                        fill: #e64019;
+                        fill-rule: evenodd;
+                    }
+
+                    .cls-19,
+                    .cls-20,
+                    .cls-21 {
+                        font-size: 20.469px;
+                    }
+
+                    .cls-19,
+                    .cls-20 {
+                        fill: #1d1d1b;
+                    }
+
+                    .cls-20 {
+                        font-family: Poppins-Medium, Poppins;
+                        font-weight: 500;
+                    }
+
+                    .cls-21 {
+                        opacity: 0.4;
+                    }
+                </style>
+            </defs>
+            <g id="Achtergrond">
+                <rect class="cls-1" width="1920" height="1080" />
+                <path id="Golf" class="cls-2"
+                    d="M0,.209S612.877,55.1,860.118,580.174,1920.305,1079.8,1920.305,1079.8L0,1080Z" /><text
+                    id="De_avocado_tekst" data-name="De avocado tekst" class="cls-3"
+                    transform="translate(79.489 569.507)">De avocado: <tspan x="0" y="46.531">Je hebt hem vast wel
+                    </tspan>
+                    <tspan x="0" y="93.063">eens voorbij zien komen...</tspan>
+                </text>
+            </g>
+            <g id="Hashtags">
+                <g id="Hashtag_1" data-name="Hashtag 1">
+                    <rect class="cls-2" x="1369.272" y="460.518" width="422.055" height="123.018" rx="12" /><text
+                        class="cls-4" transform="translate(1511.108 512.503)">#AVOCADO</text><text class="cls-5"
+                        transform="translate(1404.736 542.73)">#</text><text class="cls-6"
+                        transform="translate(1511.763 551.813)">12,7 mln berichten</text>
+                </g>
+                <g id="Hashtag_2" data-name="Hashtag 2">
+                    <rect class="cls-2" x="1369.272" y="622.483" width="382.728" height="111.556" rx="12" /><text
+                        class="cls-7" transform="translate(1497.893 669.626)">#TOMATO</text><text class="cls-8"
+                        transform="translate(1401.432 697.036)">#</text><text class="cls-9"
+                        transform="translate(1498.485 705.272)">7,6 mln berichten</text>
+                </g>
+                <g id="Hashtag_3" data-name="Hashtag 3">
+                    <rect class="cls-2" x="1369.272" y="774" width="358.663" height="104.541" rx="12" /><text
+                        class="cls-10" transform="translate(1489.806 818.179)">#SPINACH</text><text class="cls-11"
+                        transform="translate(1399.41 843.865)">#</text><text class="cls-12"
+                        transform="translate(1490.362 851.583)">5,6 mln berichten</text>
+                </g><text id="De_populairste_tekst" data-name="De populairste tekst" class="cls-13"
+                    transform="translate(1369.316 382.198)">De populairste #groente op <tspan x="0" y="29.476">Instagram
+                    </tspan></text>
+            </g>
+            <g id="Instagrampost">
+                <g id="Instagrampost-2" data-name="Instagrampost">
+                    <rect class="cls-14" x="691.602" y="142.3" width="536.491" height="754.405" rx="12" />
+                    <rect class="cls-15" x="691.602" y="142.3" width="527.682" height="746.333" rx="12" />
+                    <rect class="cls-1" x="721.17" y="242.475" width="468.817" height="456.203" />
+                    <circle class="cls-2" cx="1182.311" cy="181.209" r="5.218" />
+                    <circle class="cls-2" cx="1182.311" cy="196.563" r="5.218" />
+                    <circle class="cls-2" cx="1182.311" cy="212.544" r="5.218" />
+                    <polygon class="cls-2"
+                        points="1153.739 719.239 1186.172 719.239 1186.172 762.554 1169.956 751.719 1153.739 762.554 1153.739 719.239" />
+                    <circle class="cls-2" cx="796.048" cy="739.235" r="18.007" />
+                    <polyline class="cls-16" points="801.233 751.454 819.032 757.242 808.498 742.782" />
+                    <circle class="cls-17" cx="796.048" cy="739.235" r="16.191" />
+                    <path class="cls-18"
+                        d="M744.9,760.469C733.65,749.4,722.921,739.9,722.921,731.7c0-7.574,6.13-10.371,10.551-10.371,2.621,0,8.293,1,11.426,8.9,3.177-7.927,8.919-8.885,11.44-8.885,5.075,0,10.537,3.239,10.537,10.352,0,8.129-10.261,17.232-21.977,28.774" />
+                    <text class="cls-19" transform="translate(722.922 796.603)">10.9800 Likes</text><text class="cls-20"
+                        transform="translate(721.17 826.624)">Avocado_Lover</text><text class="cls-19"
+                        transform="translate(889.463 826.624)">Heerlijke avocado <tspan class="cls-2" x="188.108" y="0">
+                            #avocado</tspan></text><text class="cls-21" transform="translate(721.17 856.93)">4.000
+                        reacties</text><text id="Profielnaam" class="cls-20"
+                        transform="translate(796.047 203.137)">Avocado_Lover</text>
+                    <circle id="Rondje_profielfoto" data-name="Rondje profielfoto" class="cls-2" cx="753.362"
+                        cy="193.748" r="32.192" />
+                    <image width="342" height="483" transform="translate(741.361 172.253) scale(0.089)"
+                        xlink:href="images/profielfoto-avocado.png" />
+                </g>
+            </g>
+        </svg>
+
+        <svg class="gezondheid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 1920 1080">
+            <defs>
+                <style>
+                    .cls-1-2,
+                    .cls-3-2,
+                    .cls-6-2 {
+                        fill: #03392b;
+                    }
+
+                    .cls-2-2,
+                    .cls-4-2,
+                    .cls-7-2 {
+                        fill: #e7e7aa;
+                    }
+
+                    .cls-3-2,
+                    .cls-7-2 {
+                        font-size: 24px;
+                        font-family: Poppins-Medium, Poppins;
+                        font-weight: 500;
+                    }
+
+                    .cls-4-2 {
+                        font-size: 36px;
+                    }
+
+                    .cls-4-2,
+                    .cls-6-2 {
+                        font-family: Poppins-Bold, Poppins;
+                        font-weight: 700;
+                    }
+
+                    .cls-5-2 {
+                        fill: none;
+                        stroke: #e7e7aa;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 6px;
+                    }
+
+                    .cls-6-2 {
+                        font-size: 19.45px;
+                    }
+                </style>
+            </defs>
+            <g id="background">
+                <rect class="cls-1-2" width="1920" height="1080" />
+            </g>
+            <g id="heart-icon">
+                <g id="icons_Q2" data-name="icons Q2">
+                    <path id="Path_74" data-name="Path 74" class="cls-2-2"
+                        d="M520.07,270.37a23.7,23.7,0,0,0-16.81-7.12c-7.72,0-15.83,6.13-19.79,12.86-4-6.73-12.07-12.86-19.78-12.86A24,24,0,0,0,440,287.19a21.39,21.39,0,0,0,.39,3.75h8.11a13.59,13.59,0,0,1-.59-3.75,15.22,15.22,0,0,1,4.75-11.08,15,15,0,0,1,11.08-4.75c4.35,0,10.09,3.95,12.86,8.7l5.14,8.9a2.16,2.16,0,0,0,3.56,0l5.15-8.9c2.77-4.75,8.5-8.7,12.86-8.7a15,15,0,0,1,11.08,4.74,15.26,15.26,0,0,1,4.74,11.08c0,3.56-1.78,7.32-5.34,11.68H487.23L483.47,305l-10.09-17a2.17,2.17,0,0,0-3-.53,2.05,2.05,0,0,0-.53.53l-6.33,10.88H449.84a4,4,0,0,0-4,3.9,3.49,3.49,0,0,0,.05.65,4.14,4.14,0,0,0,4.15,3.36h17.81l3.76-6.13,10.09,17a2.18,2.18,0,0,0,3,.52,2.14,2.14,0,0,0,.52-.52l6.33-10.88h15l-23.15,24.73-15.83-16.83H456.77l25.32,27.11a2,2,0,0,0,2.77,0c5.93-6.33,28.29-30.07,32.25-34.62s9.89-11.87,9.89-20a23.57,23.57,0,0,0-6.93-16.83Z" />
+                </g>
+            </g>
+            <g id="_text_health" data-name="
+        text health">
+                <g id="_Groep_text_3_" data-name="&lt;Groep text 3&gt;">
+                    <rect class="cls-2-2" x="295" y="393" width="415" height="82" rx="8.05" /><text class="cls-3-2"
+                        transform="translate(329.75 427.78)">Verkleint de kans op hart- <tspan x="0" y="28.8">en
+                            vaatziekten.</tspan></text>
+                </g>
+                <g id="_Groep_text_2_" data-name="&lt;Groep text 2&gt;">
+                    <rect class="cls-2-2" x="295" y="504" width="415" height="82" rx="8.05" /><text class="cls-3-2"
+                        transform="translate(329.48 538.07)">Helpt veroudering tegen te <tspan x="0" y="28.8">gaan.
+                        </tspan>
+                    </text>
+                </g>
+                <g id="_Groep_text_1_" data-name="&lt;Groep text 1&gt;">
+                    <rect class="cls-2-2" x="295" y="615" width="415" height="82" rx="8.05" /><text class="cls-3-2"
+                        transform="translate(327.48 661.07)">Helpt je gewicht te verliezen</text>
+                </g>
+            </g>
+            <g id="avocado-img">
+                <image width="647" height="1024" transform="translate(765 299) scale(0.48)"
+                    xlink:href="../weg-projectinformation/Naamloos-2.png" />
+            </g>
+            <g id="titel"><text class="cls-4-2" transform="translate(224.45 87.27)">De avocado wordt gezien als een
+                    superfood.
+                    Super gezond met veel voordelen:</text></g>
+            <g id="avocado-vitamines_info" data-name="avocado-vitamines info">
+                <g id="_Groep_arrow_" data-name="&lt;Groep arrow&gt;">
+                    <path class="cls-5-2"
+                        d="M1109.21,418.34a167.75,167.75,0,0,0,134.21-16.14c50.52-29.65,75.37-77.21,83.85-95.39" />
+                    <line class="cls-5-2" x1="1327.27" y1="306.81" x2="1339.26" y2="348.01" />
+                    <line class="cls-5-2" x1="1327.27" y1="306.81" x2="1288.04" y2="324.17" />
+                </g>
+                <g id="_Groep_arrow_2" data-name="&lt;Groep arrow&gt;">
+                    <path class="cls-5-2"
+                        d="M1109.09,710.7a167.76,167.76,0,0,0,105.37,84.67c56.53,15.39,107.9-.1,126.83-6.74" />
+                    <line class="cls-5-2" x1="1341.29" y1="788.63" x2="1320.22" y2="826.01" />
+                    <line class="cls-5-2" x1="1341.29" y1="788.63" x2="1301.45" y2="772.71" />
+                </g>
+                <g id="_Groep_vitamines_letters_" data-name="&lt;Groep vitamines letters&gt;">
+                    <circle class="cls-2-2" cx="1558.09" cy="286.88" r="18.09" />
+                    <circle class="cls-2-2" cx="1610.91" cy="332.04" r="18.09" />
+                    <circle class="cls-2-2" cx="1497.4" cy="308.79" r="18.09" />
+                    <circle class="cls-2-2" cx="1554.41" cy="374.81" r="18.09" />
+                    <rect class="cls-2-2" x="1555.14" y="292.8" width="5.89" height="78.47" />
+                    <rect class="cls-2-2" x="1552.19" y="271.67" width="5.89" height="99.58"
+                        transform="translate(1092.13 1840.48) rotate(-84.73)" /><text class="cls-6-2"
+                        transform="translate(1489.79 315.57)">B</text><text class="cls-6-2"
+                        transform="translate(1550.7 292.32)">C</text><text class="cls-6-2"
+                        transform="translate(1607.02 339)">E</text><text class="cls-6-2"
+                        transform="translate(1549.51 382.49)">K</text>
+                </g>
+                <g id="_Groep_arrow_3" data-name="&lt;Groep arrow&gt;">
+                    <path class="cls-5-2"
+                        d="M1155.46,554a167.74,167.74,0,0,0,132,29c57.47-11.35,96.6-48.06,110.6-62.42" />
+                    <line class="cls-5-2" x1="1398.09" y1="520.54" x2="1395.84" y2="563.38" />
+                    <line class="cls-5-2" x1="1398.09" y1="520.54" x2="1355.33" y2="523.99" />
+                </g><text class="cls-7-2" transform="translate(1333.3 492.83)">Kalium, Zink, Ijzer</text><text
+                    class="cls-7-2" transform="translate(1265.56 281.36)">Bevat vitamines:</text><text class="cls-7-2"
+                    transform="translate(1378.83 779.84)">Onverzadigd vetten<tspan x="0" y="28.8">(Oliezuur)</tspan>
+                </text>
+            </g>
+        </svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
