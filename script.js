@@ -167,3 +167,16 @@ gsap.from('#petorca_text>*', {
 	opacity: 0,
 	stagger: 0.5
 })
+
+gsap.set('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', { rotation: 180, transformOrigin: '50% 50%' })
+
+gsap.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
+	scrollTrigger: {
+		trigger: '#Tekst_1',
+		start: 'top top',
+		end: 'center top',
+		scrub: 0.75,
+		markers: true
+	},
+	height: 0,
+})
