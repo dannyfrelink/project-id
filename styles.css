@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+html {
+	background-color: #e7e7aa;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	color: #03392b;
@@ -7,30 +11,27 @@ body {
 }
 
 /* Header pagina */
-.achtergrond {
-	position: absolute;
-	background-color: #e7e7aa;
-	width: 100vw;
-	height: 100vh;
-}
 
 header {
 	display: flex;
 	flex-direction: column;
 	width: fit-content;
 	margin: 10vw auto 0;
+	height: calc(100vh - 10vw);
 }
 
 header img {
 	position: absolute;
 	left: calc(50% - 5vw);
 	width: 12vw;
+	/* transform: translateX(120vw); */
 }
 
 header h1 {
 	font-size: 10vw;
 	margin: 1.8vw auto 0;
 	z-index: 1;
+	/* transform: translateX(-150vw); */
 }
 
 header p {
@@ -40,7 +41,7 @@ header p {
 	margin: 2.7vw auto 0;
 }
 
-.nextPage {
+#nextPage {
 	position: absolute;
 	bottom: -9vw;
 	left: 44vw;
@@ -49,7 +50,7 @@ header p {
 	width: fit-content;
 }
 
-.nextPage div {
+#nextPage div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -57,7 +58,7 @@ header p {
 	margin: 0 0 -2vw -1vw;
 }
 
-.nextPage p {
+#nextPage p {
 	text-align: center;
 	font-size: 1vw;
 	font-weight: 700;
@@ -65,11 +66,11 @@ header p {
 	margin: 0;
 }
 
-.nextPage img {
+#nextPage img {
 	width: 2.5vw;
 }
 
-.nextPage .avocado {
+#nextPage #avocado {
 	transform: rotate(45deg);
 	width: 12vw;
 	z-index: 1;
@@ -77,21 +78,16 @@ header p {
 
 /* Hype pagina */
 
-.hype {
-	position: absolute;
-	top: 100vh;
+#svg {
+	font-size: 0;
 }
 
-#Hashtag_1,
-#Hashtag_2,
-#Hashtag_3 {
-	transform: translateX(600px);
+#Instagrampost {
+	width: 50px;
 }
 
-.avocadoFoto {
-	transform: translateX(120vw);
-}
+/* Health pagina */
 
-.titel {
-	transform: translateX(-150vw);
+#Groep_arrow {
+	transform-origin: center;
 }
