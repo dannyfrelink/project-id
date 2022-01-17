@@ -14,8 +14,8 @@ tl
 			},
 			rotation: 360,
 			x: '-2vw',
-			y: '85vw',
-			transform: 'scale(1.4)',
+			y: '90vw',
+			transform: 'scale(1.5)',
 			duration: 13
 		})
 	.fromTo('.avocado', { y: 0 },
