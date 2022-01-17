@@ -82,20 +82,10 @@ header p {
 	top: 100vh;
 }
 
-#Hashtag_1 {
-	transform: translateX(600px);
-}
-
-#Hashtag_2 {
-	transform: translateX(600px);
-}
-
+#Hashtag_1,
+#Hashtag_2,
 #Hashtag_3 {
 	transform: translateX(600px);
-}
-
-#Instagrampost {
-	width: 50px;
 }
 
 .avocadoFoto {
