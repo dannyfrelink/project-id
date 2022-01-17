@@ -1,12 +1,12 @@
 const tl = gsap.timeline();
 
 tl
-	.fromTo('.avocado', {
+	.fromTo('#avocado', {
 		y: '25vw'
 	},
 		{
 			scrollTrigger: {
-				trigger: '.avocado',
+				trigger: '#avocado',
 				start: '200% 39%',
 				end: '200% top',
 				scrub: 0.75
@@ -17,10 +17,10 @@ tl
 			transform: 'scale(1.5)',
 			duration: 13
 		})
-	.fromTo('.avocado', { y: 0 },
+	.fromTo('#avocado', { y: 0 },
 		{
 			scrollTrigger: {
-				trigger: '.avocado',
+				trigger: '#avocado',
 				start: 'top 70%',
 				end: 'top 40%',
 				scrub: 0.75
@@ -32,10 +32,10 @@ tl
 
 
 
-// .to('.avocado',
+// .to('#avocado',
 // 	{
 // 		scrollTrigger: {
-// 			trigger: '.avocado',
+// 			trigger: '#avocado',
 // 			start: '500% 70%',
 // 			end: '500% 40%',
 // 			markers: true,
@@ -47,14 +47,14 @@ tl
 // 		duration: 13
 // 	})
 
-// .fromTo('.avocado', {
+// .fromTo('#avocado', {
 // 	x: '-2vw',
 // 	y: '90vw',
 // 	transform: 'scale(1.5)'
 // },
 // 	{
 // 		scrollTrigger: {
-// 			trigger: '.avocado',
+// 			trigger: '#avocado',
 // 			start: '500% 70%',
 // 			end: '500% 40%',
 // 			markers: true,
@@ -68,7 +68,13 @@ tl
 // 	})
 
 
-
+gsap.to('#De_avocado_tekst', {
+	scrollTrigger: {
+		trigger: '#De_avocado_tekst',
+		scrub: true,
+	},
+	opacity: '100%',
+})
 
 gsap.from('#Hashtag', {
 	scrollTrigger: {
@@ -106,8 +112,8 @@ gsap.from('#Groep_arrow', {
 // Avocado eten (keerzijde pagina)
 var tl2 = gsap.timeline({
 	scrollTrigger: {
-		trigger: '.keerzijde',
-		pin: '.keerzijde',
+		trigger: '#keerzijde',
+		pin: '#keerzijde',
 		scrub: 0.5,
 		start: 'top top',
 		end: 'bottom top',
@@ -126,10 +132,38 @@ tl2.to('#vork_avocado, #hand', {
 	duration: 13,
 })
 
-gsap.to('#De_avocado_tekst', {
+tl2.from('#stopbord', {
+	x: 700,
+	duration: 13
+})
+
+tl2.to('#avocado_eten', {
+	y: '80vw',
+	duration: 20,
+	rotation: 0
+})
+
+// gsap.to('#avocado_eten', {
+// 	scrollTrigger: {
+// 		trigger: '#avocado_eten',
+// 		scrub: 0.75,
+// 		start: 'top -40%',
+// 		end: 'top -100%',
+// 	},
+// 	y: '150vw',
+// 	rotation: 90,
+// 	// duration: 15
+// })
+
+
+gsap.from('#petorca_text>*', {
 	scrollTrigger: {
-		trigger: '#De_avocado_tekst',
-		scrub: true,
+		trigger: '#petorca_text',
+		scrub: 0.75,
+		start: 'top 80%',
+		end: 'top 35%',
+		markers: true
 	},
-	opacity: '100%',
+	opacity: 0,
+	stagger: 0.5
 })

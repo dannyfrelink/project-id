@@ -41,7 +41,7 @@ header p {
 	margin: 2.7vw auto 0;
 }
 
-.nextPage {
+#nextPage {
 	position: absolute;
 	bottom: -9vw;
 	left: 44vw;
@@ -50,7 +50,7 @@ header p {
 	width: fit-content;
 }
 
-.nextPage div {
+#nextPage div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -58,7 +58,7 @@ header p {
 	margin: 0 0 -2vw -1vw;
 }
 
-.nextPage p {
+#nextPage p {
 	text-align: center;
 	font-size: 1vw;
 	font-weight: 700;
@@ -66,11 +66,11 @@ header p {
 	margin: 0;
 }
 
-.nextPage img {
+#nextPage img {
 	width: 2.5vw;
 }
 
-.nextPage .avocado {
+#nextPage #avocado {
 	transform: rotate(45deg);
 	width: 12vw;
 	z-index: 1;
@@ -78,7 +78,7 @@ header p {
 
 /* Hype pagina */
 
-.svg {
+#svg {
     font-size: 0;
 }
 
@@ -90,4 +90,8 @@ header p {
 
 #Groep_arrow {
     transform-origin: center;
+}
+
+#keerzijde {
+    z-index: 10;
 }

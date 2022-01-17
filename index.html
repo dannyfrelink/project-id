@@ -14,21 +14,21 @@
 
 <body>
     <header>
-        <img class="avocadoFoto" src="images/profielfoto-avocado.png" alt="Open gesneden avocado" />
-        <h1 class="titel">AVOCADO</h1>
+        <img id="avocadoFoto" src="images/profielfoto-avocado.png" alt="Open gesneden avocado" />
+        <h1 id="titel">AVOCADO</h1>
         <p>Een <strong>kleine</strong> groente met een <strong>groot</strong> verhaal</p>
     </header>
-    <section class="nextPage">
+    <section id="nextPage">
         <div>
             <p>VOLG DE AVOCADO</p>
             <img src="images/dubbele-pijl-omlaag.png" alt="Pijl omlaag" />
         </div>
-        <img class="avocado" src="images/avocado.png" alt="Hele avocado" />
+        <img id="avocado" src="images/avocado.png" alt="Hele avocado" />
     </section>
 
-    <div class="svg">
+    <div id="svg">
         <!-- Hype SVG -->
-        <svg class="hype" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        <svg id="hype" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 1920.305 1080">
             <defs>
                 <style>
@@ -225,7 +225,7 @@
         </svg>
 
         <!-- Gezondheid SVG -->
-        <svg class="gezondheid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+        <svg id="gezondheid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
             <defs>
                 <style>
                     .cls-1-2,
@@ -338,7 +338,7 @@
         </svg>
 
         <!-- Keerzijde SVG -->
-        <svg class="keerzijde" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+        <svg id="keerzijde" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1916.3 1080.8"
             style="enable-background:new 0 0 1916.3 1080.8;" xml:space="preserve">
             <style type="text/css">
@@ -383,6 +383,12 @@
                 .st7 {
                     fill: #FFFFFF;
                 }
+
+                .st8 {
+                    fill: #FFFFFF;
+                    stroke: #000000;
+                    stroke-miterlimit: 10;
+                }
             </style>
             <rect class="st0" width="1916.3" height="1080.8" />
             <g id="titel">
@@ -415,7 +421,7 @@
                 </g>
                 <path class="st4"
                     d="M595.6,926.2c19-83.1,49.4-163.3,90.1-238.2c38.7-52.2,93.9-89.9,156.6-107.1c4,5,48.9,58.9,120.9,53.5
-                c59.7-4.4,94.2-46.4,99.9-53.5c65.1,16.4,121.7,56.5,158.9,112.4c39.9,73.2,69.6,151.6,88.3,232.9H595.6z" />
+                c59.7-4.4,94.2-46.4,99.9-53.5c65.1,16.4,121.7,56.5,158.9,112.4c39.9,73.2,69.6,151.6,88.3,232.9L595.6,926.2L595.6,926.2z" />
                 <path class="st7" d="M616.4,926c6.7-11.8,14.3-23,22.7-33.7c9.2-11.6,14.5-18.2,24.1-24.3c5.7-3.7,11.7-5.9,23.8-10.5
                 c19.8-7.4,22.8-5.8,24-4.6c2.8,2.8,1.2,9.1-0.3,12.5c-3.8,8.7-11.9,10.6-25.1,19.1c-6.4,4.1-12.4,8.7-18.1,13.7
                 c8-1.3,19.7-3.4,33.5-7.1c20.9-5.5,29.6-9.8,36.2-4.9c4.7,3.5,7.8,11.2,5.1,17.5s-10.3,8-11.3,8.2c6.3,0.3,10.5,5.2,10.2,9
@@ -426,7 +432,7 @@
                 <path id="mond" class="st6" d="M1011.4,515.8c-36.3,26.4-85.5,26.4-121.8,0" />
                 <g id="hand">
                     <path class="st7" d="M1171,925.6c0,0-10.8,3.6-9.5,12.7c1.3,9,13.1,9.1,13.1,9.1s-11.4,4.2-6.6,10.3c4.9,6.2,115.1-5.4,115.1-5.4
-                    v-28.3L1171,925.6z" />
+                    V924L1171,925.6z" />
                     <path id="_x3C_Path_x3E_" class="st7" d="M1283.1,923.9c-6.7-11.8-14.3-23.1-22.7-33.7c-9.1-11.6-14.5-18.2-24.1-24.4
                     c-5.7-3.7-11.7-5.9-23.8-10.5c-19.8-7.4-22.8-5.8-24-4.6c-2.8,2.8-1.2,9.1,0.3,12.5c3.8,8.7,11.9,10.6,25.1,19.1
                     c6.4,4.1,12.4,8.7,18.1,13.7c-8-1.3-19.7-3.4-33.5-7.1c-20.9-5.5-29.6-9.8-36.2-4.9c-4.7,3.5-7.8,11.2-5.1,17.5s10.3,8,11.3,8.2
@@ -436,12 +442,12 @@
                 <path class="st1" d="M516.5,928h868c8.8,0,16,7.2,16,16v10.7c0,8.8-7.2,16-16,16h-868c-8.8,0-16-7.2-16-16V944
                 C500.5,935.2,507.7,928,516.5,928z" />
 
-                <image style="overflow:visible;" width="934" height="329" xlink:href="images/bord.png"
-                    transform="matrix(-0.4022 0 0 -0.4022 1140.7926 962.5813)">
+                <image style="overflow:visible;enable-background:new    ;" width="934" height="329"
+                    xlink:href="images/bord.png" transform="matrix(-0.4022 0 0 -0.4022 1140.7926 962.5813)">
                 </image>
                 <g id="vork_avocado">
-
-                    <image style="overflow:visible;" width="322" height="456" xlink:href="images/avocado.png"
+                    <image id="avocado_eten" style="overflow:visible;enable-background:new;" width="322" height="456"
+                        xlink:href="images/avocado.png"
                         transform="matrix(-1.686887e-07 -0.5492 0.5492 -1.686887e-07 836.6301 936.8898)">
                     </image>
                     <path id="vork" class="st7" d="M1072.7,807.8c13.5,14.9,30.6,26,49.7,32.3c8.1,16.1,16.2,32.1,24.3,48.2c0.2-1,1.7-9.3,9.5-13.5
@@ -453,11 +459,24 @@
                     C1046.6,766.4,1057.6,784.2,1072.7,807.8z" />
                 </g>
             </g>
+            <g id="avocado_bord">
+            </g>
+            <g id="tekst-keerzijde">
+            </g>
             <circle class="st0" cx="1011.4" cy="515.8" r="6.5" />
             <circle class="st0" cx="889.6" cy="515.8" r="6.5" />
+            <g id="stopbord">
+                <polygon class="st8" points="1414.5,132.1 1256.8,288.2 1256.8,514.7 1414.5,670.9 1636.4,665.4 1793.3,514.7 1793.3,289.8 
+                1636.4,132.1 	" />
+
+                <image style="overflow:visible;" width="649" height="630" xlink:href="images/stopbord.png"
+                    transform="matrix(0.9455 0 0 0.9455 1219.6482 100.6591)">
+                </image>
+            </g>
         </svg>
 
-        <svg class="chili" version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg"
+
+        <svg id="chili" version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1925.2 1080.3"
             style="enable-background:new 0 0 1925.2 1080.3;" xml:space="preserve">
             <style type="text/css">
@@ -532,10 +551,14 @@
             <path id="Avocado_achtergrond" class="st8-4" d="M363,634.7c111.6,133.4,294-21.4,378.7-46.7c46.9-14,67.8-23.7,117.3-32.6
             c24.3-4.3,126.3-21.1,307.7,13c130.5,24.5,120.8,41.3,218.2,51c74.5,7.2,149.4,4.6,223.3-7.6c51.3-8.7,101.9-21.8,151.3-39.1
             c27.3-9.5,59.4-33.1,113.2-47.8c17.3-4.7,34.8-8.3,52.5-10.9v566.1H0V548.7C0,548.7,186,423,363,634.7z" />
-            <text transform="matrix(1 0 0 1 45.809 75.684)" class="st8-4 st9-4 st10-4">We zijn aangekomen In Petorca,
-                Chili.</text>
-            <text transform="matrix(1 0 0 1 45.809 118.884)" class="st8-4 st9-4 st10-4">Waar de avocadoplantage de droge
-                heuvels verlicht</text>
+            <g id="petorca_text">
+                <text transform="matrix(1 0 0 1 45.809 75.684)" class="st8-4 st9-4 st10-4">We zijn aangekomen In
+                    Petorca,
+                    Chili.</text>
+                <text transform="matrix(1 0 0 1 45.809 118.884)" class="st8-4 st9-4 st10-4">Waar de avocadoplantage de
+                    droge
+                    heuvels verlicht</text>
+            </g>
             <text transform="matrix(1 0 0 1 44.881 952.037)" class="st0-4 st9-4 st10-4">Er is een duidelijk contrast
                 tussen
                 het droge en dorre </text>
@@ -744,6 +767,195 @@
             </g>
         </svg>
 
+        <svg id="watervoetafdruk" version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080"
+            style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+            <style type="text/css">
+                .st0-5 {
+                    fill: #033B2B;
+                }
+
+                .st1-5 {
+                    fill: #E7E7A9;
+                }
+
+                .st2-5 {
+                    font-family: 'Poppins-Bold';
+                }
+
+                .st3-5 {
+                    font-size: 38px;
+                }
+
+                .st4-5 {
+                    fill: #F53D04;
+                }
+
+                .st5-5 {
+                    font-family: 'Poppins-Medium';
+                }
+
+                .st6-5 {
+                    font-size: 30px;
+                }
+
+                .st7-5 {
+                    fill: none;
+                    stroke: #E7E7A9;
+                    stroke-miterlimit: 10;
+                }
+
+                .st8-5 {
+                    font-size: 18px;
+                }
+
+                .st9-5 {
+                    font-family: 'Poppins-Regular';
+                }
+
+                .st10-5 {
+                    font-size: 15px;
+                }
+
+                .st11-5 {
+                    font-size: 20px;
+                }
+            </style>
+            <rect id="Achtergrond" class="st0-5" width="1920" height="1080" />
+            <g id="Tekst_1">
+                <text transform="matrix(1 0 0 1 44 58)" class="st1-5 st2-5 st3-5">De avocado is een echte
+                    watersluper</text>
+                <text transform="matrix(1 0 0 1 44 95)" class="st1-5 st2-5 st3-5">met een hele hoge
+                    watervoetafdruk</text>
+            </g>
+            <g id="Tekst_2">
+                <text transform="matrix(1 0 0 1 44 152)" class="st4-5 st5-5 st6-5">“</text>
+                <text transform="matrix(1 0 0 1 58.31 152)" class="st1-5 st5-5 st6-5">Je hebt gemiddeld tweeduizend
+                    liter </text>
+                <text transform="matrix(1 0 0 1 44 189)" class="st1-5 st5-5 st6-5">water nodig om een kilogram te
+                    kweken</text>
+                <text transform="matrix(1 0 0 1 656.142 189)" class="st4-5 st5-5 st6-5">”</text>
+                <text transform="matrix(1 0 0 1 44 226)" class="st4-5 st5-5 st6-5">Water Footprint Network</text>
+            </g>
+            <rect id="Balk_Tomaat" x="264" y="941" class="st1-5" width="497" height="72" />
+            <rect id="Balk_sinaasappel" x="806" y="833" class="st1-5" width="497" height="180" />
+            <rect id="Balk_avocado" x="1347" y="293" class="st1-5" width="497" height="720" />
+            <line id="Line_23" class="st7-5" x1="235.5" y1="293.5" x2="226.5" y2="293.5" />
+            <g id="Grafiek">
+                <line id="Line_1" class="st7-5" x1="233.5" y1="1011.5" x2="1843.5" y2="1011.5" />
+                <line id="Line_2" class="st7-5" x1="235.5" y1="1013" x2="235.5" y2="291.5" />
+                <line id="Line_4" class="st7-5" x1="235.5" y1="977.5" x2="226.5" y2="977.5" />
+                <line id="Line_5" class="st7-5" x1="235.5" y1="941.5" x2="226.5" y2="941.5" />
+                <line id="Line_6" class="st7-5" x1="235.5" y1="905.5" x2="226.5" y2="905.5" />
+                <line id="Line_7" class="st7-5" x1="235.5" y1="869.5" x2="226.5" y2="869.5" />
+                <line id="Line_8" class="st7-5" x1="235.5" y1="833.5" x2="226.5" y2="833.5" />
+                <line id="Line_9" class="st7-5" x1="235.5" y1="797.5" x2="226.5" y2="797.5" />
+                <line id="Line_10" class="st7-5" x1="235.5" y1="761.5" x2="226.5" y2="761.5" />
+                <line id="Line_11" class="st7-5" x1="235.5" y1="725.5" x2="226.5" y2="725.5" />
+                <line id="Line_12" class="st7-5" x1="235.5" y1="689.5" x2="226.5" y2="689.5" />
+                <line id="Line_13" class="st7-5" x1="235.5" y1="653.5" x2="226.5" y2="653.5" />
+                <line id="Line_14" class="st7-5" x1="235.5" y1="617.5" x2="226.5" y2="617.5" />
+                <line id="Line_15" class="st7-5" x1="235.5" y1="581.5" x2="226.5" y2="581.5" />
+                <line id="Line_16" class="st7-5" x1="235.5" y1="545.5" x2="226.5" y2="545.5" />
+                <line id="Line_17" class="st7-5" x1="235.5" y1="509.5" x2="226.5" y2="509.5" />
+                <line id="Line_18" class="st7-5" x1="235.5" y1="473.5" x2="226.5" y2="473.5" />
+                <line id="Line_19" class="st7-5" x1="235.5" y1="437.5" x2="226.5" y2="437.5" />
+                <line id="Line_20" class="st7-5" x1="235.5" y1="401.5" x2="226.5" y2="401.5" />
+                <line id="Line_21" class="st7-5" x1="235.5" y1="365.5" x2="226.5" y2="365.5" />
+                <line id="Line_22" class="st7-5" x1="235.5" y1="329.5" x2="226.5" y2="329.5" />
+                <g id="_200">
+                    <text transform="matrix(1 0 0 1 183 948)" class="st1-5 st5-5 st8-5">200</text>
+                </g>
+                <g id="_400">
+                    <text transform="matrix(1 0 0 1 182 876)" class="st1-5 st5-5 st8-5">400</text>
+                </g>
+                <g id="_600">
+                    <text transform="matrix(1 0 0 1 182 804)" class="st1-5 st5-5 st8-5">600</text>
+                </g>
+                <g id="_800">
+                    <text transform="matrix(1 0 0 1 182 732)" class="st1-5 st5-5 st8-5">800</text>
+                </g>
+                <g id="_1000">
+                    <text transform="matrix(1 0 0 1 175 660)" class="st1-5 st5-5 st8-5">1000</text>
+                </g>
+                <g id="_1200">
+                    <text transform="matrix(1 0 0 1 175 588)" class="st1-5 st5-5 st8-5">1200</text>
+                </g>
+                <g id="_1400">
+                    <text transform="matrix(1 0 0 1 175 516)" class="st1-5 st5-5 st8-5">1400</text>
+                </g>
+                <g id="_1600">
+                    <text transform="matrix(1 0 0 1 175 444)" class="st1-5 st5-5 st8-5">1600</text>
+                </g>
+                <g id="_1800">
+                    <text transform="matrix(1 0 0 1 175 372)" class="st1-5 st5-5 st8-5">1800</text>
+                </g>
+                <g id="_2000">
+                    <text transform="matrix(1 0 0 1 172 300)" class="st1-5 st5-5 st8-5">2000</text>
+                </g>
+                <g id="_300">
+                    <text transform="matrix(1 0 0 1 189 911)" class="st1-5 st9-5 st10-5">300</text>
+                </g>
+                <g id="_500">
+                    <text transform="matrix(1 0 0 1 189 839)" class="st1-5 st9-5 st10-5">500</text>
+                </g>
+                <g id="_700">
+                    <text transform="matrix(1 0 0 1 189 767)" class="st1-5 st9-5 st10-5">700</text>
+                </g>
+                <g id="_900">
+                    <text transform="matrix(1 0 0 1 189 695)" class="st1-5 st9-5 st10-5">900</text>
+                </g>
+                <g id="_1100">
+                    <text transform="matrix(1 0 0 1 189 623)" class="st1-5 st9-5 st10-5">1100</text>
+                </g>
+                <g id="_1300">
+                    <text transform="matrix(1 0 0 1 185 551)" class="st1-5 st9-5 st10-5">1300</text>
+                </g>
+                <g id="_1500">
+                    <text transform="matrix(1 0 0 1 184 479)" class="st1-5 st9-5 st10-5">1500</text>
+                </g>
+                <g id="_1700">
+                    <text transform="matrix(1 0 0 1 185 407)" class="st1-5 st9-5 st10-5">1700</text>
+                </g>
+                <g id="_1900">
+                    <text transform="matrix(1 0 0 1 183 335)" class="st1-5 st9-5 st10-5">1900</text>
+                </g>
+                <g id="_100">
+                    <text transform="matrix(1 0 0 1 193 983)" class="st1-5 st9-5 st10-5">100</text>
+                </g>
+                <g id="Water_in_Liter_per_kilogram">
+                    <text transform="matrix(1 0 0 1 231 1046)" class="st1-5 st5-5 st11-5">Water in Liter per
+                        kilogram</text>
+                </g>
+                <g id="Liter_">
+                    <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 155 329.9999)"
+                        class="st1-5 st5-5 st11-5">Liter</text>
+                </g>
+            </g>
+            <text transform="matrix(1 0 0 1 1362.9189 329.908)" class="st0-5 st5-5 st8-5">Dat is </text>
+            <text transform="matrix(1 0 0 1 1418.3049 329.908)" class="st4-5 st5-5 st8-5">vier keer</text>
+            <text transform="matrix(1 0 0 1 1496.7469 329.908)" class="st0-5 st5-5 st8-5"> zoveel als nodig is om
+            </text>
+            <text transform="matrix(1 0 0 1 1362.9189 351.508)" class="st0-5 st5-5 st8-5">een kilo sinaasappels te
+                produceren </text>
+            <text transform="matrix(1 0 0 1 1362.9189 373.108)" class="st0-5 st5-5 st8-5">en </text>
+            <text transform="matrix(1 0 0 1 1390.387 373.108)" class="st4-5 st5-5 st8-5">tien keer</text>
+            <text transform="matrix(1 0 0 1 1469.657 373.108)" class="st0-5 st5-5 st8-5"> zoveel als nodig is om </text>
+            <text transform="matrix(1 0 0 1 1362.9189 394.708)" class="st0-5 st5-5 st8-5">een kilo tomaten te
+                produceren</text>
+            <image style="overflow:visible;enable-background:new    ;" width="322" height="456" id="Avocado_1_"
+                xlink:href="../Documents/School/Jaar 3/Project/project-id/images/avocado.png"
+                transform="matrix(1.127 0 0 1.127 1436.176 550.407)">
+            </image>
+            <image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" id="Sinaasappel_1_"
+                xlink:href="../Documents/School/Jaar 3/Project/project-id/images/sinaasappel.png"
+                transform="matrix(0.382 0 0 0.382 784.426 532.0855)">
+            </image>
+            <image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" id="Tomaat_1_"
+                xlink:href="../Documents/School/Jaar 3/Project/project-id/images/Tomaat.png"
+                transform="matrix(0.286 0 0 0.286 295.7594 637.407)">
+            </image>
+        </svg>
 
 
 
