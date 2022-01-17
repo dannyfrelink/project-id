@@ -29,6 +29,9 @@ tl
 			rotation: 360,
 			duration: 13
 		})
+
+
+
 // .to('.avocado',
 // 	{
 // 		scrollTrigger: {
@@ -63,6 +66,9 @@ tl
 // 		transform: 'scale(0.5)',
 // 		duration: 13
 // 	})
+
+
+
 
 gsap.from('#Hashtag_1', {
 	scrollTrigger: {
@@ -105,7 +111,6 @@ var tl2 = gsap.timeline({
 		scrub: 0.75,
 		start: 'top top',
 		end: 'bottom top',
-		markers: true
 	},
 })
 
@@ -116,22 +121,10 @@ tl2.to('#vork', {
 	transformOrigin: '0% 100%'
 })
 
-tl2.to('#vork, .avocado_bord', {
-	y: '-10vw',
+tl2.to('#vork, #hand', {
+	y: '-14vw',
 	duration: 13,
 })
-
-// gsap.to('.avocado_bord', {
-// 	scrollTrigger: {
-// 		trigger: '.avocado_bord',
-// 		scrub: 1,
-// 		// start: 'top bottom',
-// 		end: 'top 80%',
-// 		markers: true
-// 	},
-// 	opacity: 0.5,
-// 	duration: 1
-// })
 
 gsap.to('#De_avocado_tekst', {
 	scrollTrigger: {
