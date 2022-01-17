@@ -70,9 +70,9 @@ tl
 
 
 
-gsap.from('#Hashtag_1', {
+gsap.from('#Hashtag', {
 	scrollTrigger: {
-		trigger: '#Hashtag_1',
+		trigger: '#Hashtag',
 		scrub: 1,
 		end: 'top 70%',
 	},
@@ -108,7 +108,7 @@ var tl2 = gsap.timeline({
 	scrollTrigger: {
 		trigger: '.keerzijde',
 		pin: '.keerzijde',
-		scrub: 0.75,
+		scrub: 0.5,
 		start: 'top top',
 		end: 'bottom top',
 	},
@@ -121,7 +121,7 @@ tl2.to('#vork', {
 	transformOrigin: '0% 100%'
 })
 
-tl2.to('#vork, #hand', {
+tl2.to('#vork_avocado, #hand', {
 	y: '-14vw',
 	duration: 13,
 })
