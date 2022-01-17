@@ -43,6 +43,30 @@ gsap.from('#Hashtag_1', {
 	stagger: 0.5
 })
 
+gsap.from('#Groep_text', {
+	scrollTrigger: {
+		trigger: '#Groep_text',
+		scrub: 1,
+		end: 'top 70%',
+	},
+	x: -400,
+	duration: 1,
+	stagger: 0.5
+})
+
+gsap.from('#Groep_arrow', {
+	scrollTrigger: {
+		trigger: '#Groep_arrow',
+		scrub: 1,
+		end: 'top 70%',
+	},
+	transform: 'scale(0)',
+	duration: 1,
+	stagger: 0.5
+})
+
+
+
 gsap.to('#De_avocado_tekst', {
 	scrollTrigger: {
 		trigger: '#De_avocado_tekst',

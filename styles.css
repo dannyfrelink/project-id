@@ -86,4 +86,8 @@ header p {
 	width: 50px;
 }
 
+/* Health pagina */
 
+#Groep_arrow {
+    transform-origin: center;
+}
