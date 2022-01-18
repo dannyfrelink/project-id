@@ -127,14 +127,20 @@
 <image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" id="Tomaat" xlink:href="../images/Tomaat.png"  transform="matrix(0.286 0 0 0.286 252 636)">
 </image>
 <text transform="matrix(1 0 0 1 1365.743 332.501)" class="st0 st5 st11">Dat is </text>
-<text transform="matrix(1 0 0 1 1421.129 332.501)" class="st0 st5 st11">vier keer</text>
+<g>
+	<text transform="matrix(1 0 0 1 1421.129 332.501)" class="st4 st5 st11">vier keer</text>
+</g>
 <text transform="matrix(1 0 0 1 1499.571 332.501)" class="st0 st5 st11"> zoveel als nodig is om </text>
 <text transform="matrix(1 0 0 1 1365.743 354.101)" class="st0 st5 st11">een kilo sinaasappels te produceren </text>
 <text transform="matrix(1 0 0 1 1365.743 375.701)" class="st0 st5 st11">en </text>
-<text transform="matrix(1 0 0 1 1393.2111 375.701)" class="st0 st5 st11">tien keer</text>
+<g>
+	<text transform="matrix(1 0 0 1 1393.2111 375.701)" class="st4 st5 st11">tien keer</text>
+</g>
 <text transform="matrix(1 0 0 1 1472.4811 375.701)" class="st0 st5 st11"> zoveel als nodig is om </text>
 <text transform="matrix(1 0 0 1 1365.743 397.301)" class="st0 st5 st11">een kilo tomaten te produceren</text>
 <rect x="1303" y="1008" class="st7" width="212" height="80"/>
 <image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" xlink:href="../images/Sinaasappel.png"  transform="matrix(0.403 0 0 0.403 712 502)">
+</image>
+<image style="overflow:visible;" width="322" height="456" xlink:href="../images/avocado.png"  transform="matrix(1.2491 0 0 1.2491 1365.743 488.8239)">
 </image>
 </svg>
