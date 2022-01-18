@@ -291,8 +291,9 @@ var tl6 = gsap.timeline({
 		trigger: '#wereldbol',
 		pin: '#wereldbol',
 		scrub: 0.5,
-		start: '5% top',
+		start: 'top top',
 		end: 'bottom top',
+		markers: true
 	},
 })
 
