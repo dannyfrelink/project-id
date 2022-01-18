@@ -118,7 +118,8 @@ var tl_keerzijde = gsap.timeline({
 		pin: '#keerzijde',
 		scrub: 0.5,
 		start: 'top top',
-		end: 'bottom top',
+		end: '+=100%',
+		pinSpacing: true,
 	},
 })
 
@@ -180,7 +181,8 @@ var tl_grafiek = gsap.timeline({
 		pin: '#watervoetafdruk',
 		scrub: 0.5,
 		start: '5% top',
-		end: 'bottom top',
+		end: '+=100%',
+		pinSpacing: true,
 	},
 })
 
@@ -198,7 +200,8 @@ var tl_rivier_fotos = gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		markers: true,
+		end: '+=100%',
+		pinSpacing: true,
 	},
 })
 
@@ -243,7 +246,8 @@ var tl_rivier = gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		markers: true,
+		end: '+=100%',
+		pinSpacing: true,
 	},
 })
 
@@ -280,7 +284,8 @@ gsap.to('#rivier_water', {
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		markers: true,
+		end: '+=100%',
+		pinSpacing: true,
 	},
 	fill: '#A59589'
 })
@@ -292,8 +297,8 @@ var tl_wereldkaart = gsap.timeline({
 		pin: '#wereldbol',
 		scrub: 0.5,
 		start: 'top top',
-		end: 'bottom top',
-		markers: true
+		end: '+=100%',
+		pinSpacing: true,
 	},
 })
 
