@@ -16,9 +16,9 @@
 	.st10{font-size:15px;}
 	.st11{font-size:20px;}
 </style>
-<rect id="Achtergrond" class="st0-5" width="1920" height="1080"/>
+<rect id="Achtergrond" class="st0" width="1920" height="1080"/>
 <rect id="Balk_Tomaat_1_" x="1327.8" y="872.7" class="st1" width="497" height="72"/>
-<image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" id="Tomaat_2_" xlink:href="../Documents/School/Jaar 3/Project/project-id/images/Tomaat.png"  transform="matrix(0.286 0 0 0.286 1359.5765 569.1312)">
+<image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" id="Tomaat_2_" xlink:href="../images/Tomaat.png"  transform="matrix(0.286 0 0 0.286 1359.5765 569.1312)">
 </image>
 <rect id="Balk_avocado_1_" x="245" y="224.8" class="st1" width="497" height="720"/>
 <text transform="matrix(1 0 0 1 260.9077 261.6624)" class="st0 st2 st3">Dat is </text>
@@ -29,7 +29,7 @@
 <text transform="matrix(1 0 0 1 288.3758 304.8624)" class="st4 st2 st3">tien keer</text>
 <text transform="matrix(1 0 0 1 367.6458 304.8624)" class="st0 st2 st3"> zoveel als nodig is om </text>
 <text transform="matrix(1 0 0 1 260.9077 326.4624)" class="st0 st2 st3">een kilo tomaten te produceren</text>
-<image style="overflow:visible;enable-background:new    ;" width="322" height="456" id="Avocado_2_" xlink:href="../Documents/School/Jaar 3/Project/project-id/images/avocado.png"  transform="matrix(1.127 0 0 1.127 334.1648 482.1614)">
+<image style="overflow:visible;enable-background:new    ;" width="322" height="456" id="Avocado_2_" xlink:href="../images/avocado.png"  transform="matrix(1.127 0 0 1.127 334.1648 482.1614)">
 </image>
 <g id="Tekst_1">
 	<text transform="matrix(1 0 0 1 120.6576 125.0634)" class="st1 st5 st6">De avocado is een echte watersluper</text>
@@ -130,9 +130,9 @@
 		<text transform="matrix(1 0 0 1 211.8214 978.8755)" class="st1 st2 st11">Water in Liter per kilogram</text>
 	</g>
 	<g id="Liter_">
-		<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 135.8214 262.8759)" class="st1 st2 st11">Liter</text>
+		<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 135.8214 262.876)" class="st1 st2 st11">Liter</text>
 	</g>
 </g>
-<image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" id="Sinaasappel_1_" xlink:href="../Documents/School/Jaar 3/Project/project-id/images/sinaasappel.png"  transform="matrix(0.382 0 0 0.382 765.2474 463.7303)">
+<image style="overflow:visible;enable-background:new    ;" width="1414" height="2000" id="Sinaasappel_1_" xlink:href="../images/sinaasappel.png"  transform="matrix(0.382 0 0 0.382 765.2474 463.7303)">
 </image>
 </svg>
