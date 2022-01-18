@@ -279,7 +279,41 @@ var tl6 = gsap.timeline({
 	},
 })
 
-tl6.to('#water_stromingen>*', {
-	y: '5vw',
-	stagger: '0.5',
+tl6.to('#Streepje1, #Streepje2', {
+	y: '2vw',
+	fill: '#84786A',
+	duration: 1
 })
+
+tl6.to('#Streepje4, #Streepje5', {
+	x: '-2vw',
+	fill: '#84786A',
+	duration: 1
+})
+
+tl6.to('#Streepje6', {
+	x: '2vw',
+	y: '3.5vw',
+	fill: '#84786A',
+	rotation: -20,
+	duration: 1
+})
+
+tl6.to('#Streepje3', {
+	x: '3vw',
+	y: '2vw',
+	fill: '#84786A',
+	rotation: 25,
+	duration: 1
+})
+
+gsap.to('#rivier_water', {
+	scrollTrigger: {
+		trigger: '#rivier',
+		pin: '#rivier',
+		scrub: 0.5,
+		markers: true,
+	},
+	fill: '#A59589'
+})
+
