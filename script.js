@@ -188,7 +188,7 @@ tl3.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
 	height: 0,
 })
 
-tl3.from('#tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
+tl3.from('#tekst_balk, #tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
 	opacity: 0,
 })
 
