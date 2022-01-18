@@ -139,8 +139,8 @@ tl2.from('#stopbord', {
 })
 
 tl2.to('#avocado_eten', {
-	y: '80vw',
-	duration: 20,
+	y: 2000,
+	duration: 30,
 	rotation: 0,
 })
 
@@ -162,7 +162,6 @@ gsap.from('#petorca_text>*', {
 		scrub: 0.75,
 		start: 'top 80%',
 		end: 'top 35%',
-		markers: true,
 	},
 	opacity: 0,
 	stagger: 0.5,
@@ -173,13 +172,52 @@ gsap.set('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
 	transformOrigin: '50% 50%',
 })
 
-gsap.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
+// grafiek pagina
+var tl3 = gsap.timeline({
 	scrollTrigger: {
 		trigger: '#watervoetafdruk',
-		start: 'top -30%',
-		end: 'center top',
-		scrub: 0.75,
-		markers: true,
+		pin: '#watervoetafdruk',
+		scrub: 0.5,
+		start: '5% top',
+		end: 'bottom top',
 	},
-	height: 0,
+}
+);
+
+tl3.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
+	height: 0
+})
+
+tl3.from('#tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
+	opacity: 0
+})
+
+var tl4 = gsap.timeline({
+	scrollTrigger: {
+		trigger: '#wereldbol',
+		pin: '#wereldbol',
+		scrub: 0.5,
+		start: '5% top',
+		end: 'bottom top',
+		markers: true
+	},
+})
+
+tl4.from('#wereldkaart', {
+	scale: 3.5,
+	transformOrigin: '22% 98%'
+})
+
+tl4.from('#Streepjes>*', {
+	opacity: 0,
+	stagger: 0.5
+})
+
+tl4.to('#Streepjes', {
+	opacity: 0
+})
+
+tl4.to('#wereldkaart', {
+	scale: 5,
+	transformOrigin: '52% 38%'
 })
