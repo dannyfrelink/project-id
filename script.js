@@ -173,7 +173,7 @@ gsap.set('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
 	transformOrigin: '50% 50%',
 })
 
-// grafiek pagina
+// Grafiek pagina
 var tl3 = gsap.timeline({
 	scrollTrigger: {
 		trigger: '#watervoetafdruk',
@@ -192,39 +192,52 @@ tl3.from('#tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
 	opacity: 0,
 })
 
+// Rivier pagina
 var tl4 = gsap.timeline({
 	scrollTrigger: {
-		trigger: '#wereldbol',
-		pin: '#wereldbol',
+		trigger: '#rivier',
+		pin: '#rivier',
 		scrub: 0.5,
-		start: '5% top',
-		end: 'bottom top',
-		// markers: true,
+		markers: true,
 	},
 })
 
-tl4.from('#wereldkaart', {
-	scale: 3.5,
-	transformOrigin: '22% 98%',
-	duration: 8,
+tl4.to('#rivier_water', {
+	backgroundColor: 'red',
 })
 
-tl4.from('#Streepjes>*', {
-	opacity: 0,
-	stagger: 0.5,
+tl4.from('#Man', {
+	x: '-700',
 })
 
-tl4.to('#Streepjes', {
-	opacity: 0,
+tl4.from('#Vrouw', {
+	x: '700',
 })
 
-tl4.to('#wereldkaart', {
-	scale: 6,
-	duration: 8,
-	transformOrigin: '52% 38%',
+tl4.from('#Man', {
+	x: '0',
 })
 
-// Rivier pagina
+tl4.from('#Vrouw', {
+	x: '0',
+})
+
+tl4.from('#droge_rivier', {
+	x: '-700',
+})
+
+tl4.from('#vrachtwagen', {
+	x: '700',
+})
+
+tl4.from('#droge_rivier', {
+	x: '0',
+})
+
+tl4.from('#vrachtwagen', {
+	x: '0',
+})
+
 var tl5 = gsap.timeline({
 	scrollTrigger: {
 		trigger: '#rivier',
@@ -234,64 +247,19 @@ var tl5 = gsap.timeline({
 	},
 })
 
-tl5.to('#rivier_water', {
-	backgroundColor: 'red',
-})
-
-tl5.from('#Man', {
-	x: '-700',
-})
-
-tl5.from('#Vrouw', {
-	x: '700',
-})
-
-tl5.from('#Man', {
-	x: '0',
-})
-
-tl5.from('#Vrouw', {
-	x: '0',
-})
-
-tl5.from('#droge_rivier', {
-	x: '-700',
-})
-
-tl5.from('#vrachtwagen', {
-	x: '700',
-})
-
-tl5.from('#droge_rivier', {
-	x: '0',
-})
-
-tl5.from('#vrachtwagen', {
-	x: '0',
-})
-
-var tl6 = gsap.timeline({
-	scrollTrigger: {
-		trigger: '#rivier',
-		pin: '#rivier',
-		scrub: 0.5,
-		markers: true,
-	},
-})
-
-tl6.to('#Streepje1, #Streepje2', {
+tl5.to('#Streepje1, #Streepje2', {
 	y: '2vw',
 	fill: '#84786A',
 	duration: 1
 })
 
-tl6.to('#Streepje4, #Streepje5', {
+tl5.to('#Streepje4, #Streepje5', {
 	x: '-2vw',
 	fill: '#84786A',
 	duration: 1
 })
 
-tl6.to('#Streepje6', {
+tl5.to('#Streepje6', {
 	x: '2vw',
 	y: '3.5vw',
 	fill: '#84786A',
@@ -299,7 +267,7 @@ tl6.to('#Streepje6', {
 	duration: 1
 })
 
-tl6.to('#Streepje3', {
+tl5.to('#Streepje3', {
 	x: '3vw',
 	y: '2vw',
 	fill: '#84786A',
@@ -317,3 +285,34 @@ gsap.to('#rivier_water', {
 	fill: '#A59589'
 })
 
+// Wereldkaart pagina
+var tl6 = gsap.timeline({
+	scrollTrigger: {
+		trigger: '#wereldbol',
+		pin: '#wereldbol',
+		scrub: 0.5,
+		start: '5% top',
+		end: 'bottom top',
+	},
+})
+
+tl6.from('#wereldkaart', {
+	scale: 3.5,
+	transformOrigin: '22% 98%',
+	duration: 8,
+})
+
+tl6.from('#Streepjes>*', {
+	opacity: 0,
+	stagger: 0.5,
+})
+
+tl6.to('#Streepjes', {
+	opacity: 0,
+})
+
+tl6.to('#wereldkaart', {
+	scale: 6,
+	duration: 8,
+	transformOrigin: '52% 38%',
+})
