@@ -72,6 +72,7 @@ tl.fromTo(
 gsap.to('#De_avocado_tekst', {
 	scrollTrigger: {
 		trigger: '#De_avocado_tekst',
+		end: 'top center',
 		scrub: true,
 	},
 	opacity: '100%',
