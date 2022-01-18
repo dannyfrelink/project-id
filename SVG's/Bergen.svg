@@ -7,12 +7,15 @@
 	.st1{fill:#E7E7A9;}
 	.st2{fill:#C6B6AC;}
 	.st3{fill:#B5A499;}
-	.st4{fill:#AF9F94;}
-	.st5{fill:#A5958B;}
-	.st6{fill:#9B8D80;}
-	.st7{fill:#84786A;}
-	.st8{font-family:'Poppins-Bold';}
-	.st9{font-size:36px;}
+	.st4{clip-path:url(#SVGID_2_);}
+	.st5{clip-path:url(#SVGID_4_);}
+	.st6{fill:#AF9F94;}
+	.st7{fill:#A5958B;}
+	.st8{fill:#9B8D80;}
+	.st9{fill:#84786A;}
+	.st10{font-family:'Poppins-Bold';}
+	.st11{font-size:36px;}
+	.st12{clip-path:url(#SVGID_6_);}
 </style>
 <path class="st0" d="M-40,338.8v374.4c0.1,1.5,0.2,3.1,0.3,4.6c1.4,23.3,4.1,47,1.4,70.4c-0.4,3.6-1,7.1-1.6,10.7v68.9
 	c0.4,0.7,0.7,1.4,0.6,2.1c-0.1,0.9-0.3,1.9-0.6,2.8V1080h2000V338.8H-40z"/>
@@ -23,46 +26,50 @@
 <path id="Berg_00000097479679630664441600000007339671470026674621_" class="st3" d="M776,257.6l93.3-32.3l117.8-30.6l157.4-96.1
 	h38.3l52.4,19.1l36.5-3.1c0,0,20.9,35.5,73,41.6V379H776V257.6z"/>
 <g>
-	<defs>
-		<path id="SVGID_1_" d="M-23.8,288.5l192.9-16l206.2-40.7h58.1l40-27.9h94.9c0,0,65.6,35.9,104.3,40.7s130.5,21.6,130.5,21.6
-			l45.6-7.3l165.6,193.2l-1038,3.8V288.5z"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g style="clip-path:url(#SVGID_2_);">
-		
-			<image style="overflow:visible;" width="2338" height="1558" xlink:href="../../../../../../Desktop/Screenshots/Schermafbeelding 2022-01-18 om 13.31.45.png"  transform="matrix(0.4069 0 0 0.4069 -6.5109 112)">
-		</image>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M-23.8,288.5l192.9-16l206.2-40.7h58.1l40-27.9h94.9c0,0,65.6,35.9,104.3,40.7s130.5,21.6,130.5,21.6
+				l45.6-7.3l165.6,193.2l-1038,3.8L-23.8,288.5L-23.8,288.5z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="2338" height="1558" xlink:href="../../../../../../Desktop/Screenshots/Schermafbeelding 2022-01-18 om 13.31.45.png"  transform="matrix(0.4069 0 0 0.4069 -6.5109 112)">
+			</image>
+		</g>
 	</g>
 </g>
 <g>
-	<defs>
-		<path id="SVGID_3_" d="M776.4,430.7l138.6-10.1l115.2-37.6l33-37.4l30-7.8h34.8c0,0,75.6-120.7,93.1-125.4c0,0,1-32.7,6.2-35
-			c5.2-2.3,22.7-6.2,35.1-4.7c12.4,1.6,43.4,4.7,43.4,4.7l100.1-93.4c0,0,18.6-15.6,26.8-16.4c8.3-0.8,33-33.5,33-33.5h67.3l69,20.2
-			l28.9,8.6c0,0,50.6,70.9,84.7,82.5c34.1,11.7,70.2,54.5,70.2,54.5l42.3,58.4c0,0,125.9,75.9,136.3,96v117.4L860.8,618.1
-			L776.4,430.7z"/>
-	</defs>
-	<clipPath id="SVGID_4_">
-		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-	</clipPath>
-	<g style="clip-path:url(#SVGID_4_);">
-		
-			<image style="overflow:visible;" width="2742" height="1534" xlink:href="../../../../../../Desktop/Screenshots/Schermafbeelding 2022-01-18 om 13.32.14.png"  transform="matrix(-0.4465 0 0 0.4465 1864.3038 34)">
-		</image>
+	<g>
+		<defs>
+			<path id="SVGID_3_" d="M776.4,430.7L915,420.6l115.2-37.6l33-37.4l30-7.8h34.8c0,0,75.6-120.7,93.1-125.4c0,0,1-32.7,6.2-35
+				s22.7-6.2,35.1-4.7c12.4,1.6,43.4,4.7,43.4,4.7L1405.9,84c0,0,18.6-15.6,26.8-16.4c8.3-0.8,33-33.5,33-33.5h67.3l69,20.2
+				l28.9,8.6c0,0,50.6,70.9,84.7,82.5c34.1,11.7,70.2,54.5,70.2,54.5l42.3,58.4c0,0,125.9,75.9,136.3,96v117.4L860.8,618.1
+				L776.4,430.7z"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st5">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="2742" height="1534" xlink:href="../../../../../../Desktop/Screenshots/Schermafbeelding 2022-01-18 om 13.32.14.png"  transform="matrix(-0.4465 0 0 0.4465 1864.3038 34)">
+			</image>
+		</g>
 	</g>
 </g>
-<polygon id="Berg" class="st4" points="1736,196 1883.8,157.6 1958.4,176.8 1962,418.9 1736,418.9 "/>
-<path id="Berg_00000031908446217044971430000009885002954341739662_" class="st5" d="M1077.9,383.6c0,0-36.7-44.9-81.6-44.9
+<polygon id="Berg" class="st6" points="1736,198.1 1883.8,157.6 1958.4,177.8 1962,433.1 1736,433.1 "/>
+<path id="Berg_00000031908446217044971430000009885002954341739662_" class="st7" d="M1077.9,383.6c0,0-36.7-44.9-81.6-44.9
 	s-92.5,0-92.5,0s-107.7,86-133,93.6v210.1l307.1,7.8V383.6z"/>
-<path id="Berg_00000153667964444138417400000002261720832836993152_" class="st6" d="M1155.6,564.1
+<path id="Berg_00000153667964444138417400000002261720832836993152_" class="st8" d="M1155.6,564.1
 	c-44.2-31.4-117.6-29.7-117.6-29.7l-36.2-22.7l-76.4-27.9l-56.6-43.1c0,0-174.5-19.8-190.8-22.2s-243.1-92.8-243.1-92.8H330.4
-	l-34.2,27.1c0,0-44.2,82.1-64.3,94.3c-20.1,12.2-74.4,29.7-74.4,29.7C121.4,509.9,49,518.6,49,518.6l-50.9,36.7
-	c1.4,33,3.8,66.4,1.2,99.4c-0.4,5.2-1,10.4-1.6,15.6v100.4c0.4,1,0.6,2,0.5,3.1c-0.1,1.4-0.3,2.7-0.5,4.1v9.7h1198.5
-	C1196.2,787.6,1199.8,595.5,1155.6,564.1z"/>
-<path id="Berg_00000098210837701520161930000014177866318039418507_" class="st7" d="M3.8,787.6c0,0,276-135,306.5-141
+	l-34.2,27.1c0,0-44.2,82.1-64.3,94.3s-74.4,29.7-74.4,29.7C121.4,509.9,49,518.6,49,518.6l-50.9,36.7c1.4,33,3.8,66.4,1.2,99.4
+	c-0.4,5.2-1,10.4-1.6,15.6v100.4c0.4,1,0.6,2,0.5,3.1c-0.1,1.4-0.3,2.7-0.5,4.1v9.7h1198.5C1196.2,787.6,1199.8,595.5,1155.6,564.1z
+	"/>
+<path id="Berg_00000098210837701520161930000014177866318039418507_" class="st9" d="M3.8,787.6c0,0,276-135,306.5-141
 	s72.3-22,72.3-22h71.6l83.2-43l38.7,19l24.4-3l41.8,30c0,0,67-51,116.5-46s116.7-30,116.7-30l68.2,14l27.5-7l37.7,2l165-45L1448,365
-	l63.9-61.3c0,0,59.2,17,92.2,0c0,0,30-4,77.9,16c0,0,86.6,22,97.8,29c11.2,7,141.5,82,141.5,82h40.7l-3.1,357H3.8z"/>
+	l63.9-61.3c0,0,59.2,17,92.2,0c0,0,30-4,77.9,16c0,0,86.6,22,97.8,29c11.2,7,141.5,82,141.5,82h40.7l-3.1,357H3.8V787.6z"/>
 <path class="st1" d="M1693.4,544.2c-371.2,82.4-474.4-95.9-875.3-49.5c-251.7,29.2-275.6,107-414.7,49.5
 	c-100.2-41.5-204.2-130-358.5-98.9c-16.9,3.4-32.7,7.9-47.4,13.1c0.2,11.4-0.3,22.8-1,34.2c0,0.1,0,0.2,0,0.3
 	c0,19.8,0.7,39.6,1.5,59.4c1.4,34,4.1,68.6,1.3,102.6c-0.6,7.7-1.6,15.5-2.6,23.3c-0.1,13.7-0.6,27.4-1.5,41.1
@@ -71,20 +78,24 @@
 <path class="st0" d="M1909.4,523.7c-56,13.5-89.4,35.2-117.8,44c-75.8,23.4-136.4,32.9-157.5,36c-105.6,15.4-191,10.7-232.5,7
 	c-101.4-8.9-91.3-24.4-227.1-47c-188.8-31.4-295-16-320.3-12c-51.6,8.1-73.3,17.1-122.1,30c-88.2,23.2-278.1,165.9-394.2,43
 	C153.6,429.7-40,545.5-40,545.5v52.1c0.6,15.5,0.8,31,0,46.5v391.2h2004V513.7C1951.2,515.3,1932.1,518.2,1909.4,523.7z"/>
-<text id="Tekst_1" transform="matrix(1 0 0 1 43.5707 75.3511)"><tspan x="0" y="0" class="st0 st8 st9">We zijn aangekomen In Petorca, Chili.</tspan><tspan x="0" y="43.2" class="st0 st8 st9">Waar de avocadoplantage de droge heuvels verlicht</tspan></text>
-<text id="Tekst_2" transform="matrix(1 0 0 1 160.6427 832.7033)"><tspan x="0" y="0" class="st1 st8 st9">Er is een duidelijk contrast tussen het droge en dorre </tspan><tspan x="0" y="43.2" class="st1 st8 st9">omringende landschap en de bloeiende plantagebomen</tspan></text>
+<text transform="matrix(1 0 0 1 43.5707 75.3511)" class="st0 st10 st11">We zijn aangekomen In Petorca, Chili.</text>
+<text transform="matrix(1 0 0 1 43.5707 118.5511)" class="st0 st10 st11">Waar de avocadoplantage de droge heuvels verlicht</text>
+<text transform="matrix(1 0 0 1 160.6427 832.7033)" class="st1 st10 st11">Er is een duidelijk contrast tussen het droge en dorre </text>
+<text transform="matrix(1 0 0 1 160.6427 875.9033)" class="st1 st10 st11">omringende landschap en de bloeiende plantagebomen</text>
 <g>
-	<defs>
-		<path id="SVGID_5_" d="M1964.3,512.6c0,0-55.2,6-101,25c-39,16.2-126.5,45.9-157,52c-30.5,6.1-176,29-268,23c0,0-75.5-4.5-109-13
-			c0,0-68.7-20.8-102-27c0,0,166,134.8,100,278.4s-77.6,228.6-77.6,228.6h710.6L1964.3,512.6z"/>
-	</defs>
-	<clipPath id="SVGID_6_">
-		<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-	</clipPath>
-	<g transform="matrix(1 0 0 1 -6.103516e-05 0)" style="clip-path:url(#SVGID_6_);">
-		
-			<image style="overflow:visible;" width="2760" height="1648" xlink:href="../../../../../../Desktop/Screenshots/Schermafbeelding 2022-01-18 om 13.30.48.png"  transform="matrix(0.3465 0 0 0.3465 1016.9466 513)">
-		</image>
+	<g>
+		<defs>
+			<path id="SVGID_5_" d="M1964.3,512.6c0,0-55.2,6-101,25c-39,16.2-126.5,45.9-157,52s-176,29-268,23c0,0-75.5-4.5-109-13
+				c0,0-68.7-20.8-102-27c0,0,166,134.8,100,278.4s-77.6,228.6-77.6,228.6h710.6L1964.3,512.6z"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g transform="matrix(1 0 0 1 -6.103516e-05 0)" class="st12">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="2760" height="1648" xlink:href="../../../../../../Desktop/Screenshots/Schermafbeelding 2022-01-18 om 13.30.48.png"  transform="matrix(0.3465 0 0 0.3465 1016.9466 513)">
+			</image>
+		</g>
 	</g>
 </g>
 </svg>
