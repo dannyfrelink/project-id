@@ -1,36 +1,38 @@
-const tl = gsap.timeline();
+const tl = gsap.timeline()
 
-tl
-	.fromTo('#avocado', {
-		y: '25vw'
+tl.fromTo(
+	'#avocado',
+	{
+		y: '25vw',
 	},
-		{
-			scrollTrigger: {
-				trigger: '#avocado',
-				start: '200% 39%',
-				end: '200% top',
-				scrub: 0.75
-			},
-			rotation: 360,
-			x: '-2vw',
-			y: '90vw',
-			transform: 'scale(1.5)',
-			duration: 13
-		})
-	.fromTo('#avocado', { y: 0 },
-		{
-			scrollTrigger: {
-				trigger: '#avocado',
-				start: 'top 70%',
-				end: 'top 40%',
-				scrub: 0.75
-			},
-			y: '25vw',
-			rotation: 360,
-			duration: 13
-		})
-
-
+	{
+		scrollTrigger: {
+			trigger: '#avocado',
+			start: '200% 39%',
+			end: '200% top',
+			scrub: 0.75,
+		},
+		rotation: 360,
+		x: '-2vw',
+		y: '90vw',
+		transform: 'scale(1.5)',
+		duration: 13,
+	}
+).fromTo(
+	'#avocado',
+	{ y: 0 },
+	{
+		scrollTrigger: {
+			trigger: '#avocado',
+			start: 'top 70%',
+			end: 'top 40%',
+			scrub: 0.75,
+		},
+		y: '25vw',
+		rotation: 360,
+		duration: 13,
+	}
+)
 
 // .to('#avocado',
 // 	{
@@ -67,7 +69,6 @@ tl
 // 		duration: 13
 // 	})
 
-
 gsap.to('#De_avocado_tekst', {
 	scrollTrigger: {
 		trigger: '#De_avocado_tekst',
@@ -84,7 +85,7 @@ gsap.from('#Hashtag', {
 	},
 	x: 400,
 	duration: 1,
-	stagger: 0.5
+	stagger: 0.5,
 })
 
 gsap.from('#Groep_text', {
@@ -95,7 +96,7 @@ gsap.from('#Groep_text', {
 	},
 	x: -400,
 	duration: 1,
-	stagger: 0.5
+	stagger: 0.5,
 })
 
 gsap.from('#Groep_arrow', {
@@ -106,7 +107,7 @@ gsap.from('#Groep_arrow', {
 	},
 	transform: 'scale(0)',
 	duration: 1,
-	stagger: 0.5
+	stagger: 0.5,
 })
 
 // Avocado eten (keerzijde pagina)
@@ -124,7 +125,7 @@ tl2.to('#vork', {
 	rotation: -50,
 	x: '2.5vw',
 	y: '5.5vw',
-	transformOrigin: '0% 100%'
+	transformOrigin: '0% 100%',
 })
 
 tl2.to('#vork_avocado, #hand', {
@@ -134,13 +135,13 @@ tl2.to('#vork_avocado, #hand', {
 
 tl2.from('#stopbord', {
 	x: 700,
-	duration: 13
+	duration: 13,
 })
 
 tl2.to('#avocado_eten', {
 	y: '80vw',
 	duration: 20,
-	rotation: 0
+	rotation: 0,
 })
 
 // gsap.to('#avocado_eten', {
@@ -155,28 +156,30 @@ tl2.to('#avocado_eten', {
 // 	// duration: 15
 // })
 
-
 gsap.from('#petorca_text>*', {
 	scrollTrigger: {
 		trigger: '#petorca_text',
 		scrub: 0.75,
 		start: 'top 80%',
 		end: 'top 35%',
-		markers: true
+		markers: true,
 	},
 	opacity: 0,
-	stagger: 0.5
+	stagger: 0.5,
 })
 
-gsap.set('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', { rotation: 180, transformOrigin: '50% 50%' })
+gsap.set('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
+	rotation: 180,
+	transformOrigin: '50% 50%',
+})
 
 gsap.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
 	scrollTrigger: {
-		trigger: '#Tekst_1',
-		start: 'top top',
+		trigger: '#watervoetafdruk',
+		start: 'top -30%',
 		end: 'center top',
 		scrub: 0.75,
-		markers: true
+		markers: true,
 	},
 	height: 0,
 })
