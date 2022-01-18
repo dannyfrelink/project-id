@@ -182,15 +182,14 @@ var tl3 = gsap.timeline({
 		start: '5% top',
 		end: 'bottom top',
 	},
-}
-);
+})
 
 tl3.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
-	height: 0
+	height: 0,
 })
 
 tl3.from('#tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
-	opacity: 0
+	opacity: 0,
 })
 
 var tl4 = gsap.timeline({
@@ -200,25 +199,87 @@ var tl4 = gsap.timeline({
 		scrub: 0.5,
 		start: '5% top',
 		end: 'bottom top',
-		markers: true
+		// markers: true,
 	},
 })
 
 tl4.from('#wereldkaart', {
 	scale: 3.5,
-	transformOrigin: '22% 98%'
+	transformOrigin: '22% 98%',
+	duration: 8,
 })
 
 tl4.from('#Streepjes>*', {
 	opacity: 0,
-	stagger: 0.5
+	stagger: 0.5,
 })
 
 tl4.to('#Streepjes', {
-	opacity: 0
+	opacity: 0,
 })
 
 tl4.to('#wereldkaart', {
-	scale: 5,
-	transformOrigin: '52% 38%'
+	scale: 6,
+	duration: 8,
+	transformOrigin: '52% 38%',
+})
+
+// Rivier pagina
+var tl5 = gsap.timeline({
+	scrollTrigger: {
+		trigger: '#rivier',
+		pin: '#rivier',
+		scrub: 0.5,
+		markers: true,
+	},
+})
+
+tl5.to('#rivier_water', {
+	backgroundColor: 'red',
+})
+
+tl5.from('#Man', {
+	x: '-700',
+})
+
+tl5.from('#Vrouw', {
+	x: '700',
+})
+
+tl5.from('#Man', {
+	x: '0',
+})
+
+tl5.from('#Vrouw', {
+	x: '0',
+})
+
+tl5.from('#droge_rivier', {
+	x: '-700',
+})
+
+tl5.from('#vrachtwagen', {
+	x: '700',
+})
+
+tl5.from('#droge_rivier', {
+	x: '0',
+})
+
+tl5.from('#vrachtwagen', {
+	x: '0',
+})
+
+var tl6 = gsap.timeline({
+	scrollTrigger: {
+		trigger: '#rivier',
+		pin: '#rivier',
+		scrub: 0.5,
+		markers: true,
+	},
+})
+
+tl6.to('#water_stromingen>*', {
+	y: '5vw',
+	stagger: '0.5',
 })
