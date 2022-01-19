@@ -1,3 +1,13 @@
+gsap.from('#ondertitel', {
+	scrollTrigger: {
+		trigger: '#titel',
+		start: 'top 20%',
+		end: 'top top',
+		scrub: 0.3,
+	},
+	opacity: 0,
+})
+
 const tl = gsap.timeline()
 
 tl.fromTo(
@@ -175,7 +185,7 @@ gsap.to("#chili", {
 	scrollTrigger: {
 		trigger: "#chili",
 		pin: "#chili",
-		scrub: true
+		scrub: 0.5
 	},
 	scale: 3.4,
 	transformOrigin: '100% 90%'
