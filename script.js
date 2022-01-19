@@ -158,6 +158,8 @@ tl_keerzijde.to('#avocado_eten', {
 // 	// duration: 15
 // })
 
+
+// Chili pagina
 gsap.from('#petorca_text>*', {
 	scrollTrigger: {
 		trigger: '#petorca_text',
@@ -169,12 +171,22 @@ gsap.from('#petorca_text>*', {
 	stagger: 0.5,
 })
 
+gsap.to("#chili", {
+	scrollTrigger: {
+		trigger: "#chili",
+		pin: "#chili",
+		scrub: true
+	},
+	scale: 3.4,
+	transformOrigin: '100% 90%'
+})
+
+// Grafiek pagina
 gsap.set('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
 	rotation: 180,
 	transformOrigin: '50% 50%',
 })
 
-// Grafiek pagina
 var tl_grafiek = gsap.timeline({
 	scrollTrigger: {
 		trigger: '#watervoetafdruk',
@@ -183,7 +195,7 @@ var tl_grafiek = gsap.timeline({
 		start: '5% top',
 		end: '+=100%',
 		pinSpacing: true,
-	},
+	}
 })
 
 tl_grafiek.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
@@ -320,5 +332,5 @@ tl_wereldkaart.to('#Streepjes', {
 tl_wereldkaart.to('#wereldkaart', {
 	scale: 6,
 	duration: 8,
-	transformOrigin: '52% 38%',
+	transformOrigin: '51% 38%',
 })
