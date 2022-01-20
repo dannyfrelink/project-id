@@ -28,7 +28,6 @@ gsap.timeline({
 		start: '150% 40%',
 		end: '150% top',
 		scrub: 0.75,
-		markers: true
 	},
 }).to('#avocado', {
 	rotation: 360,
