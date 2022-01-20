@@ -140,7 +140,8 @@ gsap.to("#chili", {
 	scrollTrigger: {
 		trigger: "#chili",
 		pin: "#chili",
-		scrub: 0.5
+		scrub: 0.5,
+		anticipatePin: 1
 	},
 	scale: 3.4,
 	transformOrigin: '100% 90%'
