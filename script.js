@@ -25,26 +25,16 @@ gsap.timeline({
 gsap.timeline({
 	scrollTrigger: {
 		trigger: '#avocado',
-		start: '200% 40%',
-		end: '200% top',
+		start: '150% 40%',
+		end: '150% top',
 		scrub: 0.75,
+		markers: true
 	},
 }).to('#avocado', {
 	rotation: 360,
-	x: '-2vw',
-	y: '90vw',
+	y: '88vw',
 	transform: 'scale(1.5)',
 	duration: 13,
-})
-
-gsap.to('#avocado', {
-	scrollTrigger: {
-		trigger: '#avocado',
-		start: '450% 40%',
-		end: '450% 25%',
-		scrub: 0.75,
-	},
-	opacity: 0,
 })
 
 // Hype pagina
@@ -69,27 +59,30 @@ gsap.from('#Hashtag', {
 })
 
 // Health pagina
-gsap.from('#Groep_text', {
+gsap.timeline({
 	scrollTrigger: {
-		trigger: '#Groep_text',
-		scrub: 1,
-		end: 'top 70%',
-	},
-	x: -400,
-	duration: 1,
-	stagger: 0.5,
+		trigger: '#gezondheid',
+		pin: '#gezondheid',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	}
 })
-
-gsap.from('#Groep_arrow', {
-	scrollTrigger: {
-		trigger: '#Groep_arrow',
-		scrub: 1,
-		end: 'top 70%',
-	},
-	transform: 'scale(0)',
-	duration: 1,
-	stagger: 0.5,
-})
+	.to('#avocado', {
+		opacity: 0,
+		duration: 0.1
+	})
+	.to('#gezondheid', {
+		scale: 3,
+		transformOrigin: '7% 43%'
+	})
+	.from('#Groep_text', {
+		opacity: 0,
+		scale: 0,
+		transformOrigin: '0% 50%',
+		stagger: 0.5
+	})
 
 // Avocado eten (keerzijde pagina)
 gsap.timeline({
@@ -100,26 +93,23 @@ gsap.timeline({
 		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
-	},
+	}
 })
-	.to('#vork', {
-		rotation: -50,
-		x: '2.5vw',
-		y: '5.5vw',
-		transformOrigin: '0% 100%',
-	})
-	.to('#vork_avocado, #hand', {
-		y: '-14vw',
+	.to('#arm_avocado', {
+		rotation: 50,
+		transformOrigin: '100% 0%',
+		y: '3vw',
+		x: '1vw',
 		duration: 13,
 	})
-	.from('#stopbord', {
+	.from('#stopteken', {
 		x: 700,
 		duration: 13,
 	})
 	.to('#avocado_eten', {
 		y: 2000,
+		x: 2000,
 		duration: 30,
-		rotation: 90,
 	})
 
 // Chili pagina
