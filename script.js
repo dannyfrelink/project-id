@@ -275,5 +275,29 @@ gsap.timeline({
 
 // Alternatief pagina
 document.querySelector('#tips_button').addEventListener('click', () => {
-	document.querySelector('#alternatief').style.display = 'none';
+	gsap.timeline()
+		.to('#alternatief', {
+			opacity: 0,
+			display: 'none',
+			duration: 0.5
+		})
+		.to('#tips', {
+			opacity: 1,
+			display: 'block',
+			duration: 0.5
+		})
+})
+
+document.querySelector('#alternatief_button').addEventListener('click', () => {
+	gsap.timeline()
+		.to('#tips', {
+			opacity: 0,
+			display: 'none',
+			duration: 0.5
+		})
+		.to('#alternatief', {
+			opacity: 1,
+			display: 'block',
+			duration: 0.5
+		})
 })

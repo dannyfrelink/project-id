@@ -95,3 +95,8 @@ header p {
 #tips_button, #alternatief_button {
     cursor: pointer;
 }
+
+#tips {
+    opacity: 0;
+    display: none;
+}
