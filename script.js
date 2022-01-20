@@ -107,8 +107,8 @@ gsap.timeline({
 		duration: 13,
 	})
 	.to('#avocado_eten', {
-		y: 2000,
-		x: 2000,
+		y: 1500,
+		x: 1500,
 		duration: 30,
 	})
 
