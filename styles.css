@@ -89,3 +89,9 @@ header p {
 #Groep_arrow {
 	transform-origin: center;
 }
+
+/* Alternatief pagina */
+
+#tips_button, #alternatief_button {
+    cursor: pointer;
+}

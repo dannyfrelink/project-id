@@ -272,3 +272,8 @@ gsap.timeline({
 		duration: 8,
 		transformOrigin: '51% 38%',
 	})
+
+// Alternatief pagina
+document.querySelector('#tips_button').addEventListener('click', () => {
+	document.querySelector('#alternatief').style.display = 'none';
+})
