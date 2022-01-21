@@ -66,21 +66,21 @@ gsap.timeline({
 		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
-	}
+	},
 })
 	.to('#avocado', {
 		opacity: 0,
-		duration: 0.1
+		duration: 0.1,
 	})
 	.to('#gezondheid', {
 		scale: 3,
-		transformOrigin: '7% 43%'
+		transformOrigin: '7% 43%',
 	})
 	.from('#Groep_text', {
 		opacity: 0,
 		scale: 0,
 		transformOrigin: '0% 50%',
-		stagger: 0.5
+		stagger: 0.5,
 	})
 
 // Avocado eten (keerzijde pagina)
@@ -92,7 +92,7 @@ gsap.timeline({
 		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
-	}
+	},
 })
 	.to('#arm_avocado', {
 		rotation: 50,
@@ -128,7 +128,7 @@ gsap.to('#chili', {
 		trigger: '#chili',
 		pin: '#chili',
 		scrub: 0.5,
-		anticipatePin: 1
+		anticipatePin: 1,
 	},
 	scale: 3.4,
 	transformOrigin: '100% 90%',
@@ -273,18 +273,34 @@ gsap.timeline({
 		transformOrigin: '51% 38%',
 	})
 
+// verspilling pagina
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#verspilling',
+		pin: '#verspilling',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	},
+}).to('#naar_prullenbak>*', {
+	x: '20vw',
+	opacity: 0,
+	stagger: 0.5,
+})
+
 // Alternatief pagina
 document.querySelector('#tips_button').addEventListener('click', () => {
 	gsap.timeline()
 		.to('#alternatief', {
 			opacity: 0,
 			display: 'none',
-			duration: 0.5
+			duration: 0.5,
 		})
 		.to('#tips', {
 			opacity: 1,
 			display: 'block',
-			duration: 0.5
+			duration: 0.5,
 		})
 })
 
@@ -293,11 +309,11 @@ document.querySelector('#alternatief_button').addEventListener('click', () => {
 		.to('#tips', {
 			opacity: 0,
 			display: 'none',
-			duration: 0.5
+			duration: 0.5,
 		})
 		.to('#alternatief', {
 			opacity: 1,
 			display: 'block',
-			duration: 0.5
+			duration: 0.5,
 		})
 })
