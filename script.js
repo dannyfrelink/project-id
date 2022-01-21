@@ -305,13 +305,13 @@ gsap.timeline({
 		pinSpacing: true,
 	}
 })
-	.from('.test', {
+	.from('.boot_tekst', {
 		opacity: 0,
 		stagger: 1.3,
 		delay: 0.4,
 		duration: 1
 	})
-	.from('.test2', {
+	.from('.loods_tekst', {
 		opacity: 0,
 		stagger: 0.8,
 		duration: 1
