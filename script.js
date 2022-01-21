@@ -273,7 +273,51 @@ gsap.timeline({
 		transformOrigin: '51% 38%',
 	})
 
-// verspilling pagina
+// Oversteek pagina
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#oversteek',
+		pin: '#oversteek',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	}
+})
+	.fromTo('#boot', {
+		x: -200,
+		y: -300,
+		scale: 0.5
+	}, {
+		x: 400,
+		y: 500,
+		scale: 1,
+		duration: 15
+	})
+
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#oversteek',
+		pin: '#oversteek',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	}
+})
+	.from('.test', {
+		opacity: 0,
+		stagger: 1.3,
+		delay: 0.4,
+		duration: 1
+	})
+	.from('.test2', {
+		opacity: 0,
+		stagger: 0.8,
+		duration: 1
+	})
+
+// Verspilling pagina
 gsap.timeline({
 	scrollTrigger: {
 		trigger: '#verspilling',
@@ -283,11 +327,12 @@ gsap.timeline({
 		end: '+=100%',
 		pinSpacing: true,
 	},
-}).to('#naar_prullenbak>*', {
-	x: '20vw',
-	opacity: 0,
-	stagger: 0.5,
 })
+	.to('#naar_prullenbak>*', {
+		x: '20vw',
+		opacity: 0,
+		stagger: 0.5,
+	})
 
 // Alternatief pagina
 document.querySelector('#tips_button').addEventListener('click', () => {
