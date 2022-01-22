@@ -329,8 +329,8 @@ gsap.timeline({
 	},
 })
 	.to('#naar_prullenbak>*', {
-		x: '20vw',
-		opacity: 0,
+		x: 'random(280, 450)',
+		y: 'random(360, 450)',
 		stagger: 0.5,
 	})
 
