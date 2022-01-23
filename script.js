@@ -163,13 +163,11 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
+		start: '96% bottom',
 		end: '+=100%',
 		pinSpacing: true,
 	},
 })
-	.to('#rivier_water', {
-		backgroundColor: 'red',
-	})
 	.from('#Man', {
 		x: '-600',
 		duration: 5,
@@ -208,41 +206,21 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
+		start: '96% bottom',
 		end: '+=100%',
 		pinSpacing: true,
 	},
 })
-	.to('#Streepje1, #Streepje2', {
-		y: '2vw',
-		fill: '#84786A',
+	.to('#rivier_vol', {
+		opacity: 0,
+		display: 'none',
+		duration: 0.5,
 	})
-	.to('#Streepje4, #Streepje5', {
-		x: '-2vw',
-		fill: '#84786A',
+	.to('#rivier_droog', {
+		opacity: 1,
+		display: 'block',
+		duration: 0.5,
 	})
-	.to('#Streepje6', {
-		x: '2vw',
-		y: '3.5vw',
-		fill: '#84786A',
-		rotation: -20,
-	})
-	.to('#Streepje3', {
-		x: '3vw',
-		y: '2vw',
-		fill: '#84786A',
-		rotation: 25,
-	})
-
-gsap.to('#rivier_water', {
-	scrollTrigger: {
-		trigger: '#rivier',
-		pin: '#rivier',
-		scrub: 0.5,
-		end: '+=100%',
-		pinSpacing: true,
-	},
-	fill: '#A59589',
-})
 
 // Wereldkaart pagina
 gsap.timeline({

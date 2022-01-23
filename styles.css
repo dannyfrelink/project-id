@@ -91,6 +91,13 @@ header p {
 	transform-origin: center;
 }
 
+/* Rivier pagina */
+
+#rivier_droog {
+    display: none;
+    opacity: 0;
+}
+
 /* Alternatief pagina */
 
 #tips_button, #alternatief_button {
