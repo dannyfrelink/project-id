@@ -91,6 +91,13 @@ header p {
 	transform-origin: center;
 }
 
+/* Keerzijde pagina */
+
+#persoon2 {
+    display: none;
+    opacity: 0;
+}
+
 /* Rivier pagina */
 
 #rivier_droog {

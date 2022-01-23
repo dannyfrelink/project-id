@@ -83,7 +83,7 @@ gsap.timeline({
 		stagger: 0.5,
 	})
 
-// Avocado eten (keerzijde pagina)
+// Keerzijde pagina
 gsap.timeline({
 	scrollTrigger: {
 		trigger: '#keerzijde',
@@ -94,21 +94,31 @@ gsap.timeline({
 		pinSpacing: true,
 	},
 })
-	.to('#arm_avocado', {
-		rotation: 50,
-		transformOrigin: '100% 0%',
-		y: '3vw',
-		x: '1vw',
-		duration: 13,
-	})
 	.from('#stopteken', {
 		x: 700,
-		duration: 13,
+		duration: 1,
+		delay: 1
 	})
-	.to('#avocado_eten', {
-		y: 1500,
-		x: 1500,
-		duration: 30,
+
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#keerzijde',
+		pin: '#keerzijde',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	},
+})
+	.to('#persoon1', {
+		opacity: 0,
+		display: 'none',
+		duration: 0.5,
+	})
+	.to('#persoon2', {
+		opacity: 1,
+		display: 'block',
+		duration: 0.5,
 	})
 
 // Wereldkaart pagina naar Chili
