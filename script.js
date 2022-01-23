@@ -152,9 +152,11 @@ gsap.timeline({
 })
 	.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
 		height: 0,
+		stagger: 0.3
 	})
-	.from('#tekst_balk, #tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
+	.from('#tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
 		opacity: 0,
+		stagger: 0.2
 	})
 
 // Rivier pagina
