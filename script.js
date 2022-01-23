@@ -111,6 +111,26 @@ gsap.timeline({
 		duration: 30,
 	})
 
+// Wereldkaart pagina naar Chili
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#wereldbol_Chili',
+		pin: '#wereldbol_Chili',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	},
+})
+	.to('#naambordjes', {
+		opacity: 0
+	})
+	.to('#wereldkaart_groen', {
+		scale: 3.5,
+		transformOrigin: '22% 98%',
+		duration: 8,
+	})
+
 // Chili pagina
 gsap.from('#petorca_text>*', {
 	scrollTrigger: {
@@ -224,11 +244,11 @@ gsap.timeline({
 		duration: 0.5,
 	})
 
-// Wereldkaart pagina
+// Wereldkaart pagina naar NL
 gsap.timeline({
 	scrollTrigger: {
-		trigger: '#wereldbol',
-		pin: '#wereldbol',
+		trigger: '#wereldbol_NL',
+		pin: '#wereldbol_NL',
 		scrub: 0.5,
 		start: 'top top',
 		end: '+=100%',
