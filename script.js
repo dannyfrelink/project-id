@@ -22,6 +22,7 @@ gsap.timeline({
 }).to('#avocado', {
 	rotation: 360,
 	y: '88vw',
+	x: '-7.5vw',
 	transform: 'scale(1.5)',
 	duration: 13,
 })
@@ -199,7 +200,7 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		// start: '96% bottom',
+		start: '100% bottom',
 		end: '+=100%',
 		pinSpacing: true,
 	},
@@ -242,7 +243,7 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		// start: '96% bottom',
+		start: '100% bottom',
 		end: '+=100%',
 		pinSpacing: true,
 	},
@@ -250,12 +251,30 @@ gsap.timeline({
 	.to('#rivier_vol', {
 		opacity: 0.3,
 		display: 'none',
-		duration: 0.5,
+		duration: 3,
 	})
 	.to('#rivier_droog', {
 		opacity: 1,
 		display: 'block',
-		duration: 0.5,
+		duration: 3,
+	})
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#rivier',
+		pin: '#rivier',
+		scrub: 0.5,
+		start: '100% bottom',
+		end: '+=100%',
+		pinSpacing: true,
+	},
+})
+	.to('#Tekst-rivier1>*', {
+		opacity: 0,
+		duration: 3,
+	})
+	.from('#Tekst-rivier2>*', {
+		opacity: 0,
+		duration: 3,
 	})
 
 // Wereldkaart pagina naar NL
@@ -286,6 +305,20 @@ gsap.timeline({
 		duration: 8,
 		transformOrigin: '51% 38%',
 	})
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#wereldbol_NL',
+		pin: '#wereldbol_NL',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	},
+}).from('#tekst-wereldbol2>*', {
+	stagger: 2,
+	opacity: 0,
+	duration: 4,
+})
 
 // Oversteek pagina
 gsap.timeline({
@@ -300,14 +333,10 @@ gsap.timeline({
 }).fromTo(
 	'#boot',
 	{
-		x: -200,
-		y: -300,
-		scale: 0.5,
+		x: -1500,
 	},
 	{
-		x: 400,
-		y: 500,
-		scale: 1,
+		x: 1870,
 		duration: 15,
 	}
 )
@@ -356,15 +385,21 @@ gsap.timeline({
 		trigger: '#verspilling',
 		pin: '#verspilling',
 		scrub: 0.5,
-		start: 'top top',
+		start: 'top 5%',
 		end: '+=100%',
 		pinSpacing: true,
 	},
-}).to('#naar_prullenbak>*', {
-	x: 'random(280, 450)',
-	y: 'random(360, 450)',
-	stagger: 0.5,
 })
+	.to('#naar_prullenbak>*', {
+		x: 'random(280, 450)',
+		y: 'random(360, 450)',
+		stagger: 0.5,
+	})
+	.from('#verspilling-tekst', {
+		opacity: 0,
+		scale: 0,
+		transformOrigin: '50% 50%',
+	})
 
 // Alternatief pagina
 document.querySelector('#tips_button').addEventListener('click', () => {

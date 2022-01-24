@@ -102,6 +102,16 @@ header p {
 	opacity: 0;
 }
 
+#rect-stopteken {
+	fill: #d42016;
+	border: solid 10px;
+	border-radius: 10px;
+}
+
+#stok {
+	fill: #e7e7aa;
+}
+
 /* Rivier pagina */
 
 #rivier_droog {
@@ -125,12 +135,8 @@ header p {
 	font-size: 1.4vw;
 }
 
-#rect-stopteken {
-	fill: #d42016;
-	border: solid 10px;
-	border-radius: 10px;
-}
-
-#stok {
-	fill: #e7e7aa;
+#cirkel1,
+#cirkel2,
+#cirkel3 {
+	border: solid 10px white;
 }
