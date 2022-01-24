@@ -93,12 +93,11 @@ gsap.timeline({
 		end: '+=100%',
 		pinSpacing: true,
 	},
+}).from('#stopteken', {
+	x: 700,
+	duration: 1,
+	delay: 1,
 })
-	.from('#stopteken', {
-		x: 700,
-		duration: 1,
-		delay: 1
-	})
 
 gsap.timeline({
 	scrollTrigger: {
@@ -133,13 +132,28 @@ gsap.timeline({
 	},
 })
 	.to('#naambordjes', {
-		opacity: 0
+		opacity: 0,
 	})
 	.to('#wereldkaart_groen', {
 		scale: 3.5,
 		transformOrigin: '22% 98%',
 		duration: 8,
 	})
+
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#wereldbol_Chili',
+		pin: '#wereldbol_Chili',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	},
+}).from('#tekst-wereldbol>*', {
+	stagger: 2,
+	opacity: 0,
+	duration: 4,
+})
 
 // Chili pagina
 gsap.from('#petorca_text>*', {
@@ -182,11 +196,11 @@ gsap.timeline({
 })
 	.from('#Balk_avocado, #Balk_sinaasappel, #Balk_Tomaat', {
 		height: 0,
-		stagger: 0.3
+		stagger: 0.3,
 	})
 	.from('#tekst_balk, #Avocado_2_, #Sinaasappel_1_, #Tomaat_2_', {
 		opacity: 0,
-		stagger: 0.2
+		stagger: 0.2,
 	})
 
 // Rivier pagina
@@ -195,7 +209,7 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		start: '96% bottom',
+		// start: '96% bottom',
 		end: '+=100%',
 		pinSpacing: true,
 	},
@@ -221,7 +235,7 @@ gsap.timeline({
 		duration: 5,
 	})
 	.from('#vrachtwagen', {
-		x: '600',
+		x: '700',
 		duration: 5,
 	})
 	.from('#droge_rivier', {
@@ -238,13 +252,13 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		start: '96% bottom',
+		// start: '96% bottom',
 		end: '+=100%',
 		pinSpacing: true,
 	},
 })
 	.to('#rivier_vol', {
-		opacity: 0,
+		opacity: 0.3,
 		display: 'none',
 		duration: 0.5,
 	})
@@ -292,18 +306,21 @@ gsap.timeline({
 		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
-	}
-})
-	.fromTo('#boot', {
+	},
+}).fromTo(
+	'#boot',
+	{
 		x: -200,
 		y: -300,
-		scale: 0.5
-	}, {
+		scale: 0.5,
+	},
+	{
 		x: 400,
 		y: 500,
 		scale: 1,
-		duration: 15
-	})
+		duration: 15,
+	}
+)
 
 gsap.timeline({
 	scrollTrigger: {
@@ -313,19 +330,35 @@ gsap.timeline({
 		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
-	}
+	},
 })
 	.from('.boot_tekst', {
 		opacity: 0,
 		stagger: 1.3,
 		delay: 0.4,
-		duration: 1
+		duration: 1,
 	})
 	.from('.loods_tekst', {
 		opacity: 0,
 		stagger: 0.8,
-		duration: 1
+		duration: 1,
 	})
+
+// import pagina
+gsap.timeline({
+	scrollTrigger: {
+		trigger: '#import',
+		pin: '#import',
+		scrub: 0.5,
+		start: 'top top',
+		end: '+=100%',
+		pinSpacing: true,
+	},
+}).from('#import_avocado', {
+	opacity: 0,
+	stagger: 3,
+	duration: 8,
+})
 
 // Verspilling pagina
 gsap.timeline({
@@ -337,12 +370,11 @@ gsap.timeline({
 		end: '+=100%',
 		pinSpacing: true,
 	},
+}).to('#naar_prullenbak>*', {
+	x: 'random(280, 450)',
+	y: 'random(360, 450)',
+	stagger: 0.5,
 })
-	.to('#naar_prullenbak>*', {
-		x: 'random(280, 450)',
-		y: 'random(360, 450)',
-		stagger: 0.5,
-	})
 
 // Alternatief pagina
 document.querySelector('#tips_button').addEventListener('click', () => {

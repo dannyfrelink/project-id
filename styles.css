@@ -2,7 +2,7 @@
 
 html {
 	background-color: #e7e7aa;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 body {
@@ -38,6 +38,20 @@ header p {
 	font-weight: 500;
 	width: fit-content;
 	margin: 2.7vw auto 0;
+}
+
+#ondertitel {
+	font-size: 1.5vw;
+}
+
+.kleine-ondertitel {
+	font-size: 0.65vw;
+	font-weight: lighter;
+}
+
+.grote-ondertitel {
+	font-size: 2vw;
+	font-weight: bolder;
 }
 
 #nextPage {
@@ -94,24 +108,29 @@ header p {
 /* Keerzijde pagina */
 
 #persoon2 {
-    display: none;
-    opacity: 0;
+	display: none;
+	opacity: 0;
 }
 
 /* Rivier pagina */
 
 #rivier_droog {
-    display: none;
-    opacity: 0;
+	display: none;
+	opacity: 0.3;
 }
 
 /* Alternatief pagina */
 
-#tips_button, #alternatief_button {
-    cursor: pointer;
+#tips_button,
+#alternatief_button {
+	cursor: pointer;
 }
 
 #tips {
-    opacity: 0;
-    display: none;
+	opacity: 0;
+	display: none;
+}
+
+#tekst_balk > text {
+	font-size: 1.4vw;
 }
