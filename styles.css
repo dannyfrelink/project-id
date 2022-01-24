@@ -44,16 +44,6 @@ header p {
 	font-size: 1.5vw;
 }
 
-.kleine-ondertitel {
-	font-size: 0.65vw;
-	font-weight: lighter;
-}
-
-.grote-ondertitel {
-	font-size: 2vw;
-	font-weight: bolder;
-}
-
 #nextPage {
 	position: absolute;
 	bottom: -9vw;
@@ -133,4 +123,14 @@ header p {
 
 #tekst_balk > text {
 	font-size: 1.4vw;
+}
+
+#rect-stopteken {
+	fill: #d42016;
+	border: solid 10px;
+	border-radius: 10px;
+}
+
+#stok {
+	fill: #e7e7aa;
 }

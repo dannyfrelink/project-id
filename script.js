@@ -1,13 +1,3 @@
-gsap.from('#ondertitel', {
-	scrollTrigger: {
-		trigger: '#titel',
-		start: 'top 20%',
-		end: 'top top',
-		scrub: 0.3,
-	},
-	opacity: 0,
-})
-
 // Avocado animatie door schermen
 gsap.timeline({
 	scrollTrigger: {
@@ -73,13 +63,13 @@ gsap.timeline({
 		duration: 0.1,
 	})
 	.to('#gezondheid', {
-		scale: 3,
-		transformOrigin: '7% 43%',
+		scale: 2.5,
+		transformOrigin: '0% 52%',
 	})
 	.from('#Groep_text', {
 		opacity: 0,
 		scale: 0,
-		transformOrigin: '0% 50%',
+		transformOrigin: '0% 25%',
 		stagger: 0.5,
 	})
 
