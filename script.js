@@ -200,7 +200,7 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		start: '100% bottom',
+		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
 	},
@@ -243,13 +243,13 @@ gsap.timeline({
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		start: '100% bottom',
+		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
 	},
 })
 	.to('#rivier_vol', {
-		opacity: 0.3,
+		opacity: 0.2,
 		display: 'none',
 		duration: 3,
 	})
@@ -258,12 +258,13 @@ gsap.timeline({
 		display: 'block',
 		duration: 3,
 	})
+
 gsap.timeline({
 	scrollTrigger: {
 		trigger: '#rivier',
 		pin: '#rivier',
 		scrub: 0.5,
-		start: '100% bottom',
+		start: 'top top',
 		end: '+=100%',
 		pinSpacing: true,
 	},

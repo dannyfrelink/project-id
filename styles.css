@@ -112,11 +112,15 @@ header p {
 	fill: #e7e7aa;
 }
 
+/* #Tekst_1 {
+	margin-bottom: 5vw;
+} */
+
 /* Rivier pagina */
 
 #rivier_droog {
 	display: none;
-	opacity: 0.3;
+	opacity: 0.2;
 }
 
 /* Alternatief pagina */
@@ -139,4 +143,9 @@ header p {
 #cirkel2,
 #cirkel3 {
 	border: solid 10px white;
+}
+
+#import {
+	margin-left: 5vw;
+	margin-bottom: 5vw;
 }
