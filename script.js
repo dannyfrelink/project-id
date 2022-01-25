@@ -402,7 +402,7 @@ gsap.timeline({
 		transformOrigin: '50% 50%',
 	})
 
-// Alternatief pagina
+// Alternatief paginagit gi
 document.querySelector('#tips_button').addEventListener('click', () => {
 	gsap.timeline()
 		.to('#alternatief', {
