@@ -249,7 +249,7 @@ gsap.timeline({
 	},
 })
 	.to('#rivier_vol', {
-		opacity: 0.3,
+		opacity: 0.2,
 		display: 'none',
 		duration: 3,
 	})
