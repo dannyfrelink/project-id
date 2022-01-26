@@ -406,7 +406,7 @@ gsap.timeline({
 document.querySelector('#tips_button').addEventListener('click', () => {
 	gsap.timeline()
 		.to('#alternatief', {
-			opacity: 0,
+			opacity: 0.2,
 			display: 'none',
 			duration: 0.5,
 		})
@@ -420,7 +420,7 @@ document.querySelector('#tips_button').addEventListener('click', () => {
 document.querySelector('#alternatief_button').addEventListener('click', () => {
 	gsap.timeline()
 		.to('#tips', {
-			opacity: 0,
+			opacity: 0.2,
 			display: 'none',
 			duration: 0.5,
 		})
