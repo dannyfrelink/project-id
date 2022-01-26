@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#033B2B;}
+	.st1{fill:#E7E7A9;}
+	.st2{font-family:'Poppins-Bold';}
+	.st3{font-size:34.953px;}
+	.st4{font-family:'Poppins-Medium';}
+	.st5{font-size:18px;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st7{clip-path:url(#SVGID_2_);}
+	.st8{fill:none;stroke:#E7E7A9;stroke-width:4;}
+</style>
+<rect id="Achtergrond" class="st0" width="1920" height="1080"/>
+<text transform="matrix(1 0 0 1 58.934 192.415)" class="st1 st2 st3">Avocado’s leggen een </text>
+<text transform="matrix(1 0 0 1 58.934 234.359)" class="st1 st2 st3">lange weg af voordat je </text>
+<text transform="matrix(1 0 0 1 58.934 276.303)" class="st1 st2 st3">ze een knijpbeurt geeft in </text>
+<text transform="matrix(1 0 0 1 58.934 318.247)" class="st1 st2 st3">de supermarkt...</text>
+<g id="Chili">
+	<rect x="795.2" y="696.4" class="st1" width="70" height="41"/>
+	<text transform="matrix(1 0 0 1 808.492 723.2411)" class="st0 st4 st5">Chili</text>
+	<rect x="801.2" y="736.4" class="st1" width="3" height="30"/>
+</g>
+<g id="NL">
+	<rect x="1260.2" y="192.4" class="st1" width="132" height="41"/>
+	<text transform="matrix(1 0 0 1 1272.3879 219.312)" class="st0 st4 st5">Nederlands</text>
+	<rect x="1270.2" y="231.4" class="st1" width="3" height="30"/>
+</g>
+<path class="st6" d="M1198.1,242.7"/>
+<g>
+	<g id="wereld">
+		<g>
+			<defs>
+				<circle id="SVGID_1_" cx="955.2" cy="574.9" r="462.9"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st7">
+				
+					<image style="overflow:visible;enable-background:new    ;" width="1590" height="1048" xlink:href="../images/wereldkaart.png"  transform="matrix(1.1448 0 0 1.1448 274.8716 -239.2729)">
+				</image>
+			</g>
+		</g>
+	</g>
+	<g id="Streepjes">
+		<path class="st8" d="M780.8,653.2c-0.2,8.2-0.3,12.5-0.5,20.7"/>
+		<path class="st8" d="M782.4,618.6c-0.6,8.6-1,17.2-1.3,25.8"/>
+		<path class="st8" d="M785.9,583.8c-1.2,8.7-2.1,17.4-2.8,26.1"/>
+		<path class="st8" d="M790.1,555.8c-1.1,6.4-2.1,12.9-3,19.4"/>
+		<path class="st8" d="M797.1,523.5c-3,7.1-3.6,15.6-5.4,23.1"/>
+		<path class="st8" d="M805,493c-2,6.8-3.6,13.7-5.2,20.6"/>
+		<path class="st8" d="M815,463.4c-2.3,6.8-4.8,13.5-7,20.3"/>
+		<path class="st8" d="M828.6,432.9c-3.4,6.9-6.7,13.9-9.7,21.1"/>
+		<path class="st8" d="M845.6,402.2c-4.3,7.1-8.5,14.3-12.4,21.7"/>
+		<path class="st8" d="M866.5,373.5c-5.8,6.4-11.1,13.3-15.8,20.6"/>
+		<path class="st8" d="M889.4,348.6c-5.7,5.6-11.2,11.3-16.5,17.3"/>
+		<path class="st8" d="M919.6,323.8c-8.2,5.4-15.9,11.5-23.1,18.1"/>
+		<path class="st8" d="M950.4,305.6c-8,4-15.8,8.4-23.3,13.2"/>
+		<path class="st8" d="M986.8,292.2c-9.5,1.9-18.7,5.2-27.6,9.2"/>
+		<path class="st8" d="M1024.4,282.8c-9.6,2.4-20.3,2.8-29.6,6.4"/>
+		<path class="st8" d="M1064.9,278.3c-10.9,0.6-21.8,1.6-32.6,3.2"/>
+		<path class="st8" d="M1105.9,278.6c-11.1-0.7-22.2-0.9-33.3-0.6"/>
+		<path class="st8" d="M1139.1,283c-10.5-2.8-13.9-2.3-24.7-3.7"/>
+	</g>
+</g>
+</svg>
