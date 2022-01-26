@@ -89,10 +89,12 @@ header p {
 	width: 50px;
 }
 
-/* Health pagina */
+/* Gezondheid pagina */
 
-#Groep_arrow {
-	transform-origin: center;
+#cirkel1,
+#cirkel2,
+#cirkel3 {
+	border: solid 10px white;
 }
 
 /* Keerzijde pagina */
@@ -112,10 +114,6 @@ header p {
 	fill: #e7e7aa;
 }
 
-/* #Tekst_1 {
-	margin-bottom: 5vw;
-} */
-
 /* Rivier pagina */
 
 #rivier_droog {
@@ -123,7 +121,14 @@ header p {
 	opacity: 0.2;
 }
 
-/* Alternatief pagina */
+/* Import pagina */
+
+#import {
+	margin-left: 5vw;
+	margin-bottom: 5vw;
+}
+
+/* Alternatief/Tips pagina */
 
 #tips_button,
 #alternatief_button {
@@ -133,19 +138,4 @@ header p {
 #tips {
 	opacity: 0.2;
 	display: none;
-}
-
-#tekst_balk > text {
-	font-size: 1.4vw;
-}
-
-#cirkel1,
-#cirkel2,
-#cirkel3 {
-	border: solid 10px white;
-}
-
-#import {
-	margin-left: 5vw;
-	margin-bottom: 5vw;
 }
