@@ -374,11 +374,20 @@ gsap.timeline({
 		end: '+=100%',
 		pinSpacing: true,
 	},
-}).from('#import_avocado', {
-	opacity: 0,
-	stagger: 3,
-	duration: 8,
 })
+	.from('#import_avocado', {
+		opacity: 0,
+		stagger: 3,
+		duration: 8,
+	})
+	.to('#import-titel', {
+		opacity: 0,
+		duration: 8,
+	})
+	.from('#baby', {
+		opacity: 0,
+		duration: 8,
+	})
 
 // Verspilling pagina
 gsap.timeline({
